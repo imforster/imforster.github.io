@@ -6,6 +6,7 @@
     <description>Recent content on imforster blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Copyright © 2021, Ian Foster</copyright>
     <lastBuildDate>Sat, 10 Apr 2021 20:27:54 -0700</lastBuildDate><atom:link href="https://imforster.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Designing Your Life</title>
@@ -25,7 +26,7 @@
       <description>Some common math coding exercises used as interview programming questions
 isPrime An algorigthm to compute a Prime Number which is greater than 1 and only divisbile by one and itself. For example Prime numbers are 1,2,3,5,7,11,13,17..
 Problem: Given a number n the function must determine if n is prime and return true/false.
-boolean isPrime(int n) { for (int x=2; x*x &amp;lt;=n; x++) { if (n % x == 0) { return false; } } return true; } Time Complexity: Analyzing this code fragment has a time complexity of o(n/2)</description>
+1boolean isPrime(int n) { 2 for (int x=2; x*x &amp;lt;=n; x++) { 3 if (n % x == 0) { 4 return false; 5 } 6 } 7 return true; 8} Time Complexity: Analyzing this code fragment has a time complexity of o(n/2)</description>
     </item>
     
     <item>
@@ -56,7 +57,18 @@ Setup Journal  Inside cover(left): Add name and contact info Inside cover(right)
       
       <guid>https://imforster.github.io/post/firstpost/</guid>
       <description>Here is some same code
-public static void main(String[] args) { System.out.println(&amp;#34;Hello World!&amp;#34;); } Resource 10 minute hugo/GitHubPages</description>
+1 2public static void main(String[] args) { 3 System.out.println(&amp;#34;Hello World!&amp;#34;); 4} Resource 10 minute hugo/GitHubPages</description>
+    </item>
+    
+    <item>
+      <title>About Hugo</title>
+      <link>https://imforster.github.io/about/</link>
+      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://imforster.github.io/about/</guid>
+      <description>Hugo is the world’s fastest framework for building websites. It is written in Go.
+It makes use of a variety of open source projects including:
+ https://github.com/russross/blackfriday https://github.com/alecthomas/chroma https://github.com/muesli/smartcrop https://github.com/spf13/cobra https://github.com/spf13/viper  Learn more and contribute on GitHub.</description>
     </item>
     
   </channel>

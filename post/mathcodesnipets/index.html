@@ -28,6 +28,10 @@ isPrime An algorigthm to compute a Prime Number which is greater than 1 and only
   <body>
     <div class="nav-drop">
   <div class="nav-body">
+      <a href="https://imforster.github.io/about/" class="nav_item">About</a>
+      <a href="https://imforster.github.io/" class="nav_item">Blog</a>
+      <a href="https://imforster.github.io/categories" class="nav_item">Category</a>
+      <a href="https://imforster.github.io/tags" class="nav_item">Tag</a>
     <div class="nav-close"></div><div class="color_mode">
 <label for="mode">Toggle Dark Mode</label>
 <input type="checkbox" class="color_choice" id="mode">
@@ -60,14 +64,14 @@ isPrime An algorigthm to compute a Prime Number which is greater than 1 and only
 <h1 id="isprime">isPrime</h1>
 <p>An algorigthm to compute a <strong>Prime Number</strong> which is greater than 1 and only divisbile by one and itself. For example Prime numbers are 1,2,3,5,7,11,13,17..</p>
 <p><strong>Problem:</strong> Given a number n the function must determine if n is prime and return true/false.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">boolean</span> <span style="color:#a6e22e">isPrime</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> n<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-  <span style="color:#66d9ef">for</span> <span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> x<span style="color:#f92672">=</span>2<span style="color:#f92672">;</span> x<span style="color:#f92672">*</span>x <span style="color:#f92672">&lt;=</span>n<span style="color:#f92672">;</span> x<span style="color:#f92672">++)</span> <span style="color:#f92672">{</span>
-    <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>n <span style="color:#f92672">%</span> x <span style="color:#f92672">==</span> 0<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-      <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">false</span><span style="color:#f92672">;</span>
-    <span style="color:#f92672">}</span>
-  <span style="color:#f92672">}</span>
-  <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">true</span><span style="color:#f92672">;</span>
-<span style="color:#f92672">}</span>
+<div class="highlight"><pre class="chroma"><code class="language-java" data-lang="java"><span class="ln">1</span><span class="kt">boolean</span> <span class="nf">isPrime</span><span class="o">(</span><span class="kt">int</span> <span class="n">n</span><span class="o">)</span> <span class="o">{</span>
+<span class="ln">2</span>  <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">x</span><span class="o">=</span><span class="n">2</span><span class="o">;</span> <span class="n">x</span><span class="o">*</span><span class="n">x</span> <span class="o">&lt;=</span><span class="n">n</span><span class="o">;</span> <span class="n">x</span><span class="o">++)</span> <span class="o">{</span>
+<span class="ln">3</span>    <span class="k">if</span> <span class="o">(</span><span class="n">n</span> <span class="o">%</span> <span class="n">x</span> <span class="o">==</span> <span class="n">0</span><span class="o">)</span> <span class="o">{</span>
+<span class="ln">4</span>      <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+<span class="ln">5</span>    <span class="o">}</span>
+<span class="ln">6</span>  <span class="o">}</span>
+<span class="ln">7</span>  <span class="k">return</span> <span class="kc">true</span><span class="o">;</span>
+<span class="ln">8</span><span class="o">}</span>
 </code></pre></div><p><strong>Time Complexity:</strong> Analyzing this code fragment has a time complexity of o(n/2)</p>
 
         </div>
@@ -94,7 +98,7 @@ isPrime An algorigthm to compute a Prime Number which is greater than 1 and only
     </main>
     <footer class="footer wrap pale">
   <p>&copy;&nbsp;<span class="year"></span>&nbsp;imforster blog</p>
-  <p class="attribution upcase">Designed by  <a href = '<no value>' target = '_blank' title = 'Linkedin Profile' rel = 'nonopener'><no value></a></p>
+  <p class="attribution upcase">Designed by  <a href = 'https://www.linkedin.com/in/ianmforster/' target = '_blank' title = 'Linkedin Profile' rel = 'nonopener'>iforste</a></p>
 </footer>
 
 
