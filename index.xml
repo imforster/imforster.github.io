@@ -29,7 +29,7 @@ boolean isPrime(int n) { for (int x=2; x*x &amp;lt;=n; x++) { if (n % x == 0) { 
     </item>
     
     <item>
-      <title>ArtofspikeNotes</title>
+      <title>The art of the spike</title>
       <link>https://imforster.github.io/post/artofspike/</link>
       <pubDate>Sat, 10 Apr 2021 19:34:52 -0700</pubDate>
       
