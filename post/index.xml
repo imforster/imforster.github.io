@@ -6,7 +6,17 @@
     <description>Recent content in Posts on imforster blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Apr 2021 18:18:40 -0700</lastBuildDate><atom:link href="https://imforster.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Apr 2021 19:34:52 -0700</lastBuildDate><atom:link href="https://imforster.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ArtofspikeNotes</title>
+      <link>https://imforster.github.io/post/artofspike/</link>
+      <pubDate>Sat, 10 Apr 2021 19:34:52 -0700</pubDate>
+      
+      <guid>https://imforster.github.io/post/artofspike/</guid>
+      <description>Art of Spike  Spike is used to finding out the missing element of the user story to complete. Developer has to estimate the spike story during the Sprint planning session.
+ Why a Spike  This was the time when I have introduced SPIKE. The purpose of Spike is to gain the knowledge necessary to reduce the risk of a technical approach, better understand a requirement, or increase the reliability of a story estimate.</description>
+    </item>
+    
     <item>
       <title>How to use Analog to cope with Digital World - BulletJournel</title>
       <link>https://imforster.github.io/post/bulletjournal/</link>
@@ -25,7 +35,7 @@ Setup Journal  Inside cover(left): Add name and contact info Inside cover(right)
       
       <guid>https://imforster.github.io/post/firstpost/</guid>
       <description>Here is some same code
-public static void main(String[] args) { System.out.println(&amp;#34;Hello World!&amp;#34;); } </description>
+public static void main(String[] args) { System.out.println(&amp;#34;Hello World!&amp;#34;); } Resource 10 minute hugo/GitHubPages</description>
     </item>
     
   </channel>
