@@ -35,7 +35,7 @@ boolean isPrime(int n) { for (int x=2; x*x &amp;lt;=n; x++) { if (n % x == 0) { 
       
       <guid>https://imforster.github.io/post/artofspike/</guid>
       <description>Art of Spike  Spike is used to finding out the missing element of the user story to complete. Developer has to estimate the spike story during the Sprint planning session.
- Why a Spike  This was the time when I have introduced SPIKE. The purpose of Spike is to gain the knowledge necessary to reduce the risk of a technical approach, better understand a requirement, or increase the reliability of a story estimate.</description>
+ Why a Spike The reason to introduce a spike is that further analysis is required to determine the fesability to implement a technical solution is required or further study of the business requirements required to ensure technical solutions meets customer needs.</description>
     </item>
     
     <item>
