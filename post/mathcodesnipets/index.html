@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" >
   <head>
-  <title>Mathcodesnipets | imforster blog</title>
+  <title>Math coding problems interview quetsions | imforster blog</title>
   <meta charset='utf-8'>
   <meta name="viewport" content ="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,8 +12,9 @@
 <meta name="keywords" content="imforster blog">
 <meta property="og:locale" content='en)_US'>
 <meta property="og:type" content="article">
-<meta property="og:title" content="Mathcodesnipets">
-<meta property="og:description" content="isPrime boolean isPrime(int n) { for (int x=2; x*x &lt;=n; x&#43;&#43;) { if (n % x == 0) { return false; } } return true; } ">
+<meta property="og:title" content="Math Coding Problems - Interview Quetsions">
+<meta property="og:description" content="Some common math coding exercises used as interview programming questions
+isPrime An algorigthm to compute a Prime Number which is greater than 1 and only">
 <meta property="og:url" content="https://imforster.github.io/post/mathcodesnipets/">
 <meta property="og:image" content="https://imforster.github.io/images/artist.jpg">
 <link rel="canonical" href="https://imforster.github.io/post/mathcodesnipets/"><link rel="apple-touch-icon" sizes="180x180" href='https://imforster.github.io/images/icons/apple-touch-icon.png'>
@@ -48,14 +49,17 @@
       
   <div class="wrap mt post">
     <div><p class="post_date">10. April 2021</p>
-      <h1 class="post_title">Mathcodesnipets</h1>
+      <h1 class="post_title">Math Coding Problems - Interview Quetsions</h1>
       <div class="post_body">
         <div class="post_inner">
         
           
           <img src="https://imforster.github.io/images/artist.jpg" alt="artist.jpg" class="post_thumbnail">
         
-          <h1 id="isprime">isPrime</h1>
+          <p>Some common math coding exercises used as interview programming questions</p>
+<h1 id="isprime">isPrime</h1>
+<p>An algorigthm to compute a <strong>Prime Number</strong> which is greater than 1 and only divisbile by one anditself. For example Prime numbers are 1,2,3,5,7,11,13,17..</p>
+<p>Given a number n the function must determine if n is prime and return true/false.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">boolean</span> <span style="color:#a6e22e">isPrime</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> n<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
   <span style="color:#66d9ef">for</span> <span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> x<span style="color:#f92672">=</span>2<span style="color:#f92672">;</span> x<span style="color:#f92672">*</span>x <span style="color:#f92672">&lt;=</span>n<span style="color:#f92672">;</span> x<span style="color:#f92672">++)</span> <span style="color:#f92672">{</span>
     <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>n <span style="color:#f92672">%</span> x <span style="color:#f92672">==</span> 0<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
@@ -64,7 +68,8 @@
   <span style="color:#f92672">}</span>
   <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">true</span><span style="color:#f92672">;</span>
 <span style="color:#f92672">}</span>
-</code></pre></div>
+</code></pre></div><p>Analyzing this code fragment has a time complexity of o(n/2)</p>
+
         </div>
         <div class="post_extra mb-2">
           

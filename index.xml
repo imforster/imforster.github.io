@@ -17,12 +17,15 @@
     </item>
     
     <item>
-      <title>Mathcodesnipets</title>
+      <title>Math Coding Problems - Interview Quetsions</title>
       <link>https://imforster.github.io/post/mathcodesnipets/</link>
       <pubDate>Sat, 10 Apr 2021 20:04:29 -0700</pubDate>
       
       <guid>https://imforster.github.io/post/mathcodesnipets/</guid>
-      <description>isPrime boolean isPrime(int n) { for (int x=2; x*x &amp;lt;=n; x++) { if (n % x == 0) { return false; } } return true; } </description>
+      <description>Some common math coding exercises used as interview programming questions
+isPrime An algorigthm to compute a Prime Number which is greater than 1 and only divisbile by one anditself. For example Prime numbers are 1,2,3,5,7,11,13,17..
+Given a number n the function must determine if n is prime and return true/false.
+boolean isPrime(int n) { for (int x=2; x*x &amp;lt;=n; x++) { if (n % x == 0) { return false; } } return true; } Analyzing this code fragment has a time complexity of o(n/2)</description>
     </item>
     
     <item>
