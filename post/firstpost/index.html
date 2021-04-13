@@ -13,8 +13,7 @@
 <meta property="og:locale" content='en)_US'>
 <meta property="og:type" content="article">
 <meta property="og:title" content="My first hugo post">
-<meta property="og:description" content="Here is some same code
-1 2public static void main(String[] args) { 3 System.out.println(&#34;Hello World!&#34;); 4} Resource 10 minute hugo/GitHubPages">
+<meta property="og:description" content="What is HUGO?  Hugo is a static web site generation tool Written in Go Lang Content is written in markdown Good for blogs, static sites  How to setup a blog">
 <meta property="og:url" content="https://imforster.github.io/post/firstpost/">
 <meta property="og:image" content="https://imforster.github.io/images/street.jpg">
 <link rel="canonical" href="https://imforster.github.io/post/firstpost/"><link rel="apple-touch-icon" sizes="180x180" href='https://imforster.github.io/images/icons/apple-touch-icon.png'>
@@ -60,7 +59,58 @@
           
           <img src="https://imforster.github.io/images/street.jpg" alt="street.jpg" class="post_thumbnail">
         
-          <p>Here is some same code</p>
+          <h1 id="what-is-hugo">What is HUGO?</h1>
+<ul>
+<li>Hugo is a static web site generation tool</li>
+<li>Written in Go Lang</li>
+<li>Content is written in markdown</li>
+<li>Good for blogs, static sites</li>
+</ul>
+<h1 id="how-to-setup-a-blog-site-like-this">How to setup a blog site like this?</h1>
+<p><a href="https://www.youtube.com/watch?v=LIFvgrRxdt4">10 minute hugo/GitHubPages</a></p>
+<h1 id="update-configtoaml">Update config.toaml</h1>
+<pre><code>baseURL = &quot;https://&lt;username|company&gt;.github.io/&quot;
+languageCode = &quot;en-us&quot;
+title = &quot;Blog name&quot;
+theme = &quot;newsroom&quot;
+author = &quot;iforster&quot;
+copyright = &quot;Copyright © 2021, &lt;First and Last Name&gt;&quot;
+canonifyurls = true
+paginate = 6
+
+[markup]
+  [markup.goldmark.renderer]
+    definitionList = true
+    hardWraps = false
+    unsafe = false # change to true to enable inclusion of rawHTML and math functions
+    xhtml = false
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = &quot;&quot;
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = false
+    tabWidth = 2
+
+# ids used below are not valid. Replace with valid ones
+[params]
+  # locale = &quot;en_US&quot;
+  # ga_analytics = &quot;&quot; # google analytics ID e.g UA-116386578-1
+  # ga_verify = &quot;&quot; # google verification code e.g 5jb-rxeBfITeJQKOuUss3ud6FPGTxXkCho-ZN5qlrZg
+  # twitter = &quot;&quot; # twitter handle e.g @weru
+  mainSections = [&quot;about&quot;, &quot;post&quot;, &quot;tags&quot;] # see https://gohugo.io/functions/where/#mainsections
+  # uncomment the line below will disable darkmode by default.
+  # disableDarkMode = true  # note that the UI control for toggling darkmode will remain in place. This way, the user can decide which mode they would like to use while browsing your website
+[params.widgets]
+  categories = true
+  tags = true
+  about = true
+</code></pre><h1 id="create-a-new-post">Create a new post</h1>
+<p>To create a new post using HUGO</p>
+<pre><code>hugo new post/&lt;new_postname&gt;.md
+</code></pre><p>Here is some same code</p>
 <div class="highlight"><pre class="chroma"><code class="language-java" data-lang="java"><span class="ln">1</span>
 <span class="ln">2</span><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
 <span class="ln">3</span>  <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;Hello World!&#34;</span><span class="o">);</span>
