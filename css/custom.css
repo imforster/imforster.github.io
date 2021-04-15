@@ -3,4 +3,7 @@
         font-weight: 900;
         color: #257f96;
     }
+  ul.a {
+  	list-style-type: circle;
+  }
 </style>
