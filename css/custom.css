@@ -3,7 +3,14 @@
         font-weight: 900;
         color: #257f96;
     }
+ul {
+  list-style: disc;
+  -webkit-padding-start: 0;
+  -moz-padding-start: 0;
+  padding: 25px;
+}
+
   ul.a {
-  	list-style-type: circle;
+  	list-style-type: circle !important;
   }
 </style>
