@@ -9,13 +9,17 @@
     <copyright>Copyright © 2021, Ian Foster</copyright>
     <lastBuildDate>Sat, 10 Jul 2021 13:36:50 -0700</lastBuildDate><atom:link href="https://imforster.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Cracking_coding_interview_notes</title>
+      <title>Cracking the Coding Interview Notes</title>
       <link>https://imforster.github.io/post/cracking_coding_interview_notes/</link>
       <pubDate>Sat, 10 Jul 2021 13:36:50 -0700</pubDate>
       
       <guid>https://imforster.github.io/post/cracking_coding_interview_notes/</guid>
-      <description>#Cracking The Coding Interview Notes
-1. Listen 2. Example 3. Brute Force 4. Optimize 5. Walkthrough 6. Implement 7. Test </description>
+      <description>1. Listen &amp;amp; Clarify   Listen to the specifics of the interviewers question
+  Ask clarifying questions and state assumptions
+  Document these assumptions
+  2. Example   Develop the example to help you understand the constraints of the problem
+  Spend time to debug your example
+  Look for solution options (eg. Think how you would solve this problem real-world, what techniques can be used such as hashing, mathmatical, grouping)</description>
     </item>
     
     <item>
