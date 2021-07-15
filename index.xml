@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2021, Ian Foster</copyright>
-    <lastBuildDate>Sat, 24 Apr 2021 16:28:18 -0700</lastBuildDate><atom:link href="https://imforster.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://imforster.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Me</title>
       <link>https://imforster.github.io/about/</link>
@@ -17,6 +17,15 @@
       <description>Who am I? I am an experienced Software Engineer with a diverse professional experience. I am a person that always strives to look for opportunities that both advance my technical knowledge and improve upon ways of working.
  My profile: LinkedIn: ianmforster  Under the hood Hugo is the world’s fastest framework for building websites. It is written in Go.
 It makes use of a variety of open source projects including:</description>
+    </item>
+    
+    <item>
+      <title>Cracking the Coding Interview Notes</title>
+      <link>https://imforster.github.io/post/cracking_coding_interview_notes/</link>
+      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://imforster.github.io/post/cracking_coding_interview_notes/</guid>
+      <description>Overview Don&amp;rsquo;t get stuck in the coding interview. The book Cracking the Coding Interview is a popular resource that assists in preparing for the technical interview process. As a senior engineer, I have observed that like many aspects of the industry we are constantly iterating and improving including interviewing. The big companies all provide materials to ensure that the interviewee is prepared for this process technically. But the following steps help you structure your thought process for the interview.</description>
     </item>
     
     <item>
@@ -79,15 +88,6 @@ A key aspect that I appreciate is the Index structure allows me to quickly navig
       <guid>https://imforster.github.io/post/firstpost/</guid>
       <description>What is HUGO?  Hugo is a static web site generation tool Written in Go Lang Content is written in markdown Good for blogs, static sites  How to setup a blog site like this? 10 minute hugo/GitHubPages
 Update config.toaml baseURL = &amp;quot;https://&amp;lt;username|company&amp;gt;.github.io/&amp;quot; languageCode = &amp;quot;en-us&amp;quot; title = &amp;quot;Blog name&amp;quot; theme = &amp;quot;newsroom&amp;quot; author = &amp;quot;iforster&amp;quot; copyright = &amp;quot;Copyright © 2021, &amp;lt;First and Last Name&amp;gt;&amp;quot; canonifyurls = true paginate = 6 [markup] [markup.</description>
-    </item>
-    
-    <item>
-      <title>Cracking the Coding Interview Notes</title>
-      <link>https://imforster.github.io/post/cracking_coding_interview_notes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://imforster.github.io/post/cracking_coding_interview_notes/</guid>
-      <description>Overview Don&amp;rsquo;t get stuck in the coding interview. The book Cracking the Coding Interview is a popular resource that assists in preparing for the technical interview process. As a senior engineer, I have observed that like many aspects of the industry we are constantly iterating and improving including interviewing. The big companies all provide materials to ensure that the interviewee is prepared for this process technically. But the following steps help you structure your thought process for the interview.</description>
     </item>
     
   </channel>
