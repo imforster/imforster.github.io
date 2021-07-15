@@ -54,7 +54,7 @@
     <main>
       
   <div class="wrap mt post">
-    <div><p class="post_date">10. July 2021</p>
+    <div><p class="post_date">01. January 0001</p>
       <h1 class="post_title">Cracking the Coding Interview Notes</h1>
       <div class="post_body">
         <div class="post_inner">
@@ -63,8 +63,12 @@
           <img src="https://imforster.github.io/images/stuck.jpg" alt="stuck.jpg" class="post_thumbnail">
         
           <h1 id="overview">Overview</h1>
-<p>Don&rsquo;t get stuck in the coding interview.  The book <a href="https://github.com/black-shadows/Cracking-the-Coding-Interview">Cracking the Coding Interview</a> is a popular resource that assists in preparing for the technical interview process.</p>
+<p>Don&rsquo;t get stuck in the coding interview.  The book <a href="https://github.com/black-shadows/Cracking-the-Coding-Interview">Cracking the Coding Interview</a> is a popular resource that assists in preparing for the technical interview process. As a senior engineer, I have observed that like many aspects of the industry
+we are constantly iterating and improving including interviewing.  The big companies all provide materials to ensure that the interviewee is prepared for
+this process technically.  But the following steps help you structure your thought process for the interview.</p>
+<p>The following steps are outlined in the book to use during the interview.</p>
 <h1 id="1-listen--clarify">1. Listen &amp; Clarify</h1>
+<p><strong><em>Why?</em> Demonstrates to the interview that you are understading the problem. Ensure the problem is well defined.</strong></p>
 <p><em><strong>Pay very close attention</strong> to any info in the problem description. You need it all for an optimal algorithm.</em></p>
 <ul>
 <li>
@@ -84,6 +88,7 @@
 </li>
 </ul>
 <h1 id="2-example">2. Example</h1>
+<p><strong><em>Why?</em> Developing an example that covers important bounds conditions and cases helps formulate deeper undeerstanding of the problem.</strong></p>
 <p><em><strong>Common Mistake</strong> Most examples are too small or are special cases. <strong>Debug your example</strong> Is there are anyway it&rsquo;s a special case? Is it big enough?</em></p>
 <ul>
 <li>
@@ -97,12 +102,14 @@
 </li>
 </ul>
 <h1 id="3-brute-force">3. Brute Force</h1>
+<p><strong><em>Why?</em> The brute force solution shows that you undersand a non-optimal solution to the problem.</strong></p>
 <p><em>Get a brute-force solution as soon as possible. Don&rsquo;t focus on efficiency initally. State that it is a simple solution and state the runtime complexity.  Don&rsquo;t code it unless your interviewer asks you too.</em></p>
 <ul>
 <li>State the first solution that might be naive and slow.  eg Compare all elements of two arrays, etc..</li>
 </ul>
 <h1 id="4-optimize">4. Optimize</h1>
-<p><em>Walk through a brute force with BUD optimization or try some of these ideas</em></p>
+<p>**<em>Why?</em> The brute force solution is often workable for small data sets but not workable in real world applications **
+<em>Walk through a brute force with BUD optimization or try some of these ideas</em></p>
 <blockquote>
 <p><strong>B</strong>ottlenecks
 <strong>U</strong>nnecessary work
@@ -115,7 +122,8 @@
 <li>Make a time vs space tradeoff. Hashtables are especially useful.</li>
 </ul>
 <blockquote>
-<p>5 Approaches</p>
+<p>5 Approaches
+<strong><em>Now What?</em> If you are stuck the following approaches can be used to break down the problem and define a solution.</strong></p>
 </blockquote>
 <ul>
 <li>BUD</li>
@@ -125,15 +133,18 @@
 <li>Data Structure Brainstorm: eg. Arrays, LinkedList, HashMap, Tree, Trie, etc..</li>
 </ul>
 <h1 id="5-walkthrough">5. Walkthrough</h1>
-<p><em>Now that you have an optimal solution, <strong>walk through your approach in detail.</strong> Make sure you undersatnd each detail before you start coding.</em></p>
+<p><strong><em>Why?</em> Demonstrates to the interviewer your algorithm works and helps you find potential bugs and or missed cases.</strong>
+<em>Now that you have an optimal solution, <strong>walk through your approach in detail.</strong> Make sure you undersatnd each detail before you start coding.</em></p>
 <ul>
 <li>Walkthrough you solution and explain as you go</li>
 <li>Think about required data structures, edge cases, etc..</li>
 </ul>
 <h1 id="6-implement">6. Implement</h1>
-<p><em>Your goal is to <strong>write beautiful code</strong> Modularize your code from the beginning and refactor to clean up anything that is not beautiful.</em></p>
+<p><strong><em>Why?</em> Interviewer needs to see how you code.</strong>
+<em>Your goal is to <strong>write beautiful code</strong> Modularize your code from the beginning and refactor to clean up anything that is not beautiful.</em></p>
 <h1 id="7-test">7. Test</h1>
-<p><em>Test in this order</em></p>
+<p><strong><em>Why?</em> Demonstrates that you know what a good test case for this problem looks like. Bounds conditions, error cases, etc..</strong>
+<em>Test in this order</em></p>
 <ol>
 <li>Conceptual test. Walk through your code like you would for detailed code review.</li>
 <li>Unusual or nonstandard code</li>
