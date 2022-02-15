@@ -8,5 +8,6 @@ flowchart TD
     D --> E[cd ../..]
     E --> F[Local test - hugo server]
     F -- Apply Changes --> C
-    F -- deploy.sh --> G{done};
+    F -- deploy.sh --> G[git commit/push changes]
+    G --> H{done};
 ```
