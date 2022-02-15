@@ -2,7 +2,7 @@
 ```mermaid
 flowchart TD
     s((start)) --> A
-    A[Clone/Pull repository https://github.com/imforster/blog/imforsterblog] --> B([cd public/post])
+    A[Clone/Pull repository https://github.com/imforster/blog] --> B([cd imforsterblog/public/post])
     B --> C[hugo new post/'new_postname'.md]
     C --> D[Update markdown file with your blog post]
     D --> E[cd ../..]
