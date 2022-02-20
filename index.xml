@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>imforster blog</title>
-    <link>https://imforster.github.io/</link>
+    <link>https://blog.imfsoftware.com/</link>
     <description>Recent content on imforster blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2021, Ian Foster</copyright>
-    <lastBuildDate>Wed, 14 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://imforster.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.imfsoftware.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Me</title>
-      <link>https://imforster.github.io/about/</link>
+      <link>https://blog.imfsoftware.com/about/</link>
       <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://imforster.github.io/about/</guid>
+      <guid>https://blog.imfsoftware.com/about/</guid>
       <description>Who am I? I am an experienced Software Engineer with a diverse professional experience. I am a person that always strives to look for opportunities that both advance my technical knowledge and improve upon ways of working.
  My profile: LinkedIn: ianmforster  Under the hood Hugo is the world’s fastest framework for building websites. It is written in Go.
 It makes use of a variety of open source projects including:</description>
@@ -21,19 +21,19 @@ It makes use of a variety of open source projects including:</description>
     
     <item>
       <title>Cracking the Coding Interview Notes</title>
-      <link>https://imforster.github.io/post/cracking_coding_interview_notes/</link>
+      <link>https://blog.imfsoftware.com/post/cracking_coding_interview_notes/</link>
       <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://imforster.github.io/post/cracking_coding_interview_notes/</guid>
+      <guid>https://blog.imfsoftware.com/post/cracking_coding_interview_notes/</guid>
       <description>Overview Don&amp;rsquo;t get stuck in the coding interview. The book Cracking the Coding Interview is a popular resource that assists in preparing for the technical interview process. As a senior engineer, I have observed that like many aspects of the industry we are constantly iterating and improving including interviewing. The big companies all provide materials to ensure that the interviewee is prepared for this process technically. But the following steps help you structure your thought process for the interview.</description>
     </item>
     
     <item>
       <title>Slack Best Practices</title>
-      <link>https://imforster.github.io/post/slack-bestpractice/</link>
+      <link>https://blog.imfsoftware.com/post/slack-bestpractice/</link>
       <pubDate>Sat, 24 Apr 2021 16:28:18 -0700</pubDate>
       
-      <guid>https://imforster.github.io/post/slack-bestpractice/</guid>
+      <guid>https://blog.imfsoftware.com/post/slack-bestpractice/</guid>
       <description>Introduction It is April of 2021, and we have been living for more than a year in the pandemic. As a result, it has meant that we all are spending a significant amount of time working, socializing and entertaining ourselves digitally.
 I work for a burgeoning startup focused on improving the private aviation space. Our firm makes extensive use of Slack as our primary means of communication.
 The intent of this blog post is to capture some practices to improve the collaboration experience in Slack.</description>
@@ -41,19 +41,19 @@ The intent of this blog post is to capture some practices to improve the collabo
     
     <item>
       <title>Designing Your Life</title>
-      <link>https://imforster.github.io/post/designyourlife/</link>
+      <link>https://blog.imfsoftware.com/post/designyourlife/</link>
       <pubDate>Sat, 10 Apr 2021 20:27:54 -0700</pubDate>
       
-      <guid>https://imforster.github.io/post/designyourlife/</guid>
+      <guid>https://blog.imfsoftware.com/post/designyourlife/</guid>
       <description>Designing Your Life Notes Be Curious  Curiosity makes everything new  Try Stuff  Bias to action Try and fail fast Learn by doing Prototype  Reframe Problems  Reframe to get unstuck Step back, examine your biases, open up to different perspective  Know it&amp;rsquo;s a Process  Life gets messy Protypes don&amp;rsquo;t workout It is a journey not a destination  Ask for Help  Radical Collaboration It takes a team Use Mentors / team sport  Designers Ask  How do I &amp;hellip; How can I &amp;hellip; How might we improve upon this &amp;hellip;  Examples</description>
     </item>
     
     <item>
       <title>Math Coding Problems - Interview Problems</title>
-      <link>https://imforster.github.io/post/mathcodesnipets/</link>
+      <link>https://blog.imfsoftware.com/post/mathcodesnipets/</link>
       <pubDate>Sat, 10 Apr 2021 20:04:29 -0700</pubDate>
       
-      <guid>https://imforster.github.io/post/mathcodesnipets/</guid>
+      <guid>https://blog.imfsoftware.com/post/mathcodesnipets/</guid>
       <description>Some common math coding exercises used as interview programming questions
 isPrime An algorigthm to compute a Prime Number which is greater than 1 and only divisbile by one and itself. For example Prime numbers are 1,2,3,5,7,11,13,17..
 Problem: Given a number n the function must determine if n is prime and return true/false.
@@ -62,30 +62,30 @@ Problem: Given a number n the function must determine if n is prime and return t
     
     <item>
       <title>The art of the spike</title>
-      <link>https://imforster.github.io/post/artofspike/</link>
+      <link>https://blog.imfsoftware.com/post/artofspike/</link>
       <pubDate>Sat, 10 Apr 2021 19:34:52 -0700</pubDate>
       
-      <guid>https://imforster.github.io/post/artofspike/</guid>
+      <guid>https://blog.imfsoftware.com/post/artofspike/</guid>
       <description>Art of Spike  Spike is used to finding out the missing element of the user story to complete. Developer has to estimate the spike story during the Sprint planning session.
  Why a Spike The reason to introduce a spike is that further analysis is required to determine the fesability to implement a technical solution is required. Also, when further study is required to determine the associated risk and/or cost benefits of functional solution options</description>
     </item>
     
     <item>
       <title>How to use Analog to cope with Digital World - BulletJournel</title>
-      <link>https://imforster.github.io/post/bulletjournal/</link>
+      <link>https://blog.imfsoftware.com/post/bulletjournal/</link>
       <pubDate>Sat, 10 Apr 2021 18:18:40 -0700</pubDate>
       
-      <guid>https://imforster.github.io/post/bulletjournal/</guid>
+      <guid>https://blog.imfsoftware.com/post/bulletjournal/</guid>
       <description>Why create a Bullet journal About a year and half ago I was introduced to the concept of the Bullet Journal as a GTD tool. As a software engineer one might wonder why an analog tool. The simplicity of a notebook that is follows the Buillet Journal structure as outline below.
 A key aspect that I appreciate is the Index structure allows me to quickly navigate. No blue-light making it a great way to review tasks.</description>
     </item>
     
     <item>
       <title>My first hugo post</title>
-      <link>https://imforster.github.io/post/firstpost/</link>
+      <link>https://blog.imfsoftware.com/post/firstpost/</link>
       <pubDate>Sat, 10 Apr 2021 16:37:18 -0700</pubDate>
       
-      <guid>https://imforster.github.io/post/firstpost/</guid>
+      <guid>https://blog.imfsoftware.com/post/firstpost/</guid>
       <description>What is HUGO?  Hugo is a static web site generation tool Written in Go Lang Content is written in markdown Good for blogs, static sites  How to setup a blog site like this? 10 minute hugo/GitHubPages
 Update config.toaml baseURL = &amp;quot;https://&amp;lt;username|company&amp;gt;.github.io/&amp;quot; languageCode = &amp;quot;en-us&amp;quot; title = &amp;quot;Blog name&amp;quot; theme = &amp;quot;newsroom&amp;quot; author = &amp;quot;iforster&amp;quot; copyright = &amp;quot;Copyright © 2021, &amp;lt;First and Last Name&amp;gt;&amp;quot; canonifyurls = true paginate = 6 [markup] [markup.</description>
     </item>
