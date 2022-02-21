@@ -90,5 +90,14 @@ A key aspect that I appreciate is the Index structure allows me to quickly navig
 Update config.toaml baseURL = &amp;quot;https://&amp;lt;username|company&amp;gt;.github.io/&amp;quot; languageCode = &amp;quot;en-us&amp;quot; title = &amp;quot;Blog name&amp;quot; theme = &amp;quot;newsroom&amp;quot; author = &amp;quot;iforster&amp;quot; copyright = &amp;quot;Copyright © 2021, &amp;lt;First and Last Name&amp;gt;&amp;quot; canonifyurls = true paginate = 6 [markup] [markup.</description>
     </item>
     
+    <item>
+      <title>Contact Us</title>
+      <link>https://blog.imfsoftware.com/contact/</link>
+      <pubDate>Sat, 25 Apr 2020 00:20:27 +0200</pubDate>
+      
+      <guid>https://blog.imfsoftware.com/contact/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
