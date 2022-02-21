@@ -11,7 +11,8 @@
 <meta property="og:locale" content='en)_US'>
 <meta property="og:type" content="article">
 <meta property="og:title" content="Contact Us">
-<meta property="og:description" content="">
+<meta property="og:description" content="You can contact me here!
+   Please fill in the form to submit your request Name  Email   Organization  Subject  Message      ">
 <meta property="og:url" content="https://blog.imfsoftware.com/contact/">
 <meta property="og:image" content="images/%!s()">
 <link rel="canonical" href="https://blog.imfsoftware.com/contact/"><link rel="apple-touch-icon" sizes="180x180" href='https://blog.imfsoftware.com/images/icons/apple-touch-icon.png'>
@@ -57,7 +58,42 @@
       <div class="post_body">
         <div class="post_inner">
         
-          <!-- raw HTML omitted -->
+          <p>You can contact me here!</p>
+<div id="reply-message"></div>
+<div>
+   <fieldset>
+      <legend>Please fill in the form to submit your request</legend>
+      <form action="https://contact-request-endpoint/" method="post">
+         
+         <div class="form-item">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name"  placeholder="Mr. Smith" />
+         </div>
+         <div class="form-item">
+            <label for="email">Email <span class="req"></span></label>
+            <input type="text" name="email" id="email"  class="required email" placeholder="smith@company.com" />
+         </div>
+         <div class="form-item">
+            <label for="organization">Organization</label>
+            <input type="text" name="organization" id="organization"  placeholder="Company, Inc." />
+         </div>
+         <div class="form-item">
+            <label for="subject">Subject</label>
+            <input type="text" name="subject" id="subject"  value="" placeholder="Need help or expertise?" />
+            <input type="hidden" name="target" id="target"  value="contact" />
+            
+            <input class="form-input" type="hidden" name="requestOrigin" id="requestOrigin"  value="" />
+         </div>
+         <div class="form-item">
+            <label for="message">Message</label>
+            <textarea  rows="6" name="message" id="message"  placeholder="Please add details concerning your request."></textarea>
+         </div>
+         
+         <input  class="button"  type="submit" value="Submit">
+      </form>
+   </fieldset>
+</div>
+
 
         </div>
         <div class="post_extra mb-2">

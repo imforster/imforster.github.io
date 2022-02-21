@@ -96,7 +96,8 @@ Update config.toaml baseURL = &amp;quot;https://&amp;lt;username|company&amp;gt;
       <pubDate>Sat, 25 Apr 2020 00:20:27 +0200</pubDate>
       
       <guid>https://blog.imfsoftware.com/contact/</guid>
-      <description></description>
+      <description>You can contact me here!
+   Please fill in the form to submit your request Name  Email   Organization  Subject  Message      </description>
     </item>
     
   </channel>
