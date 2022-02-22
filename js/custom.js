@@ -1,14 +1,6 @@
 function handleClick() {
   var form = document.querySelector("#formElem");
   // var form = document.forms[0];
-  const settings = {
-    method: 'POST',
-    headers: {
-        Accept: 'application/json',
-        'Content-Type': 'application/json',
-    }
-  };
-
   data = {
     fullname: form.querySelector('input[name="name"]').value,
     email: form.querySelector('input[name="email"]').value,
@@ -16,6 +8,17 @@ function handleClick() {
     subject: form.querySelector('input[name="subject"]').value,
     message: document.getElementById("message").value
   };
+
+  const settings = {
+    method: 'POST',
+    headers: {
+        Accept: 'application/json',
+        'Content-Type': 'application/json',
+    }
+    body: JSON.stringify(data)
+  };
+
+
 
   let response = fetch('http://localhost:8482/sendemail', settings);
 
