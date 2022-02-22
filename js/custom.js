@@ -21,4 +21,3 @@ function handleClick() {
 
   let ok = await response.ok; // read response body is ok
 }
-
