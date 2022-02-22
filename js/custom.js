@@ -8,7 +8,7 @@ function handleClick() {
     organization: form.querySelector('input[name="organization"]').value,
         subject: form.querySelector('input[name="subject"]').value,
         message: form.querySelector('input[name="message"]').value
-  }
+  };
 
   let response = await fetch('http://localhost:8482/sendemail', {
     method: 'POST', // or 'PUT'
