@@ -1,6 +1,13 @@
 function handleClick() {
   var form = document.querySelector("#formElem");
   // var form = document.forms[0];
+  const settings = {
+    method: 'POST',
+    headers: {
+        Accept: 'application/json',
+        'Content-Type': 'application/json',
+    }
+  };
 
   data = {
     fullname: form.querySelector('input[name="name"]').value,
@@ -10,13 +17,7 @@ function handleClick() {
         message: form.querySelector('input[name="message"]').value
   };
 
-  let response = await fetch('http://localhost:8482/sendemail', {
-    method: 'POST', // or 'PUT'
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify(data),
-  })
+  let response = await fetch('http://localhost:8482/sendemail', settings);
 
   let ok = await response.ok; // read response body is ok
 }
