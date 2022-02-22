@@ -20,7 +20,8 @@ function handleClick() {
 
 
 
-  let response = fetch('http://localhost:8482/sendemail', settings);
-
-  let ok = await response.ok; // read response body is ok
+  fetch('http://localhost:8482/sendemail', settings)    // Handle success
+    .then(response => response.json())  // convert to json
+    .then(json => console.log(json))    //print data to console
+    .catch(err => console.log('Request Failed', err)); // Catch errors
 }
