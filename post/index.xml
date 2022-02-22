@@ -79,5 +79,14 @@ A key aspect that I appreciate is the Index structure allows me to quickly navig
 Update config.toaml baseURL = &amp;quot;https://&amp;lt;username|company&amp;gt;.github.io/&amp;quot; languageCode = &amp;quot;en-us&amp;quot; title = &amp;quot;Blog name&amp;quot; theme = &amp;quot;newsroom&amp;quot; author = &amp;quot;iforster&amp;quot; copyright = &amp;quot;Copyright © 2021, &amp;lt;First and Last Name&amp;gt;&amp;quot; canonifyurls = true paginate = 6 [markup] [markup.</description>
     </item>
     
+    <item>
+      <title>GoLang Code Reviews</title>
+      <link>https://blog.imfsoftware.com/post/golangreview/</link>
+      <pubDate>Fri, 08 Jan 2021 17:58:00 -0700</pubDate>
+      
+      <guid>https://blog.imfsoftware.com/post/golangreview/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
