@@ -22,5 +22,5 @@ function handleClick() {
 
   let response = fetch('http://localhost:8482/sendemail', settings);
 
-  let ok = response.ok; // read response body is ok
+  let ok = await response.ok; // read response body is ok
 }
