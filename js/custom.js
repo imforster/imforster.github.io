@@ -1,6 +1,5 @@
 <script>
-    formElem.onsubmit = async (e) => {
-      e.preventDefault();
+    function handleClick() {
       var form = document.querySelector("#formElem");
       // var form = document.forms[0];
 
@@ -21,5 +20,5 @@
       })
 
       let ok = await response.ok; // read response body is ok
-    };
+    }
 </script>
