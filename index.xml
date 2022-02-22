@@ -9,6 +9,15 @@
     <copyright>Copyright © 2021, Ian Foster</copyright>
     <lastBuildDate>Wed, 14 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.imfsoftware.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Contact Us</title>
+      <link>https://blog.imfsoftware.com/contact/</link>
+      <pubDate>Sun, 20 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.imfsoftware.com/contact/</guid>
+      <description>   Please fill in the form to submit your request Name  Email   Organization  Subject  Message      </description>
+    </item>
+    
+    <item>
       <title>About Me</title>
       <link>https://blog.imfsoftware.com/about/</link>
       <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
@@ -88,15 +97,6 @@ A key aspect that I appreciate is the Index structure allows me to quickly navig
       <guid>https://blog.imfsoftware.com/post/firstpost/</guid>
       <description>What is HUGO?  Hugo is a static web site generation tool Written in Go Lang Content is written in markdown Good for blogs, static sites  How to setup a blog site like this? 10 minute hugo/GitHubPages
 Update config.toaml baseURL = &amp;quot;https://&amp;lt;username|company&amp;gt;.github.io/&amp;quot; languageCode = &amp;quot;en-us&amp;quot; title = &amp;quot;Blog name&amp;quot; theme = &amp;quot;newsroom&amp;quot; author = &amp;quot;iforster&amp;quot; copyright = &amp;quot;Copyright © 2021, &amp;lt;First and Last Name&amp;gt;&amp;quot; canonifyurls = true paginate = 6 [markup] [markup.</description>
-    </item>
-    
-    <item>
-      <title>Contact Us</title>
-      <link>https://blog.imfsoftware.com/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.imfsoftware.com/contact/</guid>
-      <description>   Please fill in the form to submit your request Name  Email   Organization  Subject  Message      </description>
     </item>
     
   </channel>
