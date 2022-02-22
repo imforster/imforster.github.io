@@ -14,7 +14,7 @@ function handleClick() {
     email: form.querySelector('input[name="email"]').value,
     organization: form.querySelector('input[name="organization"]').value,
         subject: form.querySelector('input[name="subject"]').value,
-        message: form.querySelector('input[name="message"]').value
+        message: document.getElementById("message").value
   };
 
   let response = fetch('http://localhost:8482/sendemail', settings);
