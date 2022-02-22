@@ -10,7 +10,7 @@ ul {
   padding: 25px;
 }
 
-  ul.a {
+ul.a {
   	list-style-type: circle !important;
-  }
+}
 </style>
