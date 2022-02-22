@@ -5,8 +5,8 @@ function handleClick() {
   data = {
     fullname: form.querySelector('input[name="name"]').value,
     email: form.querySelector('input[name="email"]').value,
-    organization: form.querySelector('input[name="organization"]').value
-        subject: form.querySelector('input[name="subject"]').value
+    organization: form.querySelector('input[name="organization"]').value,
+        subject: form.querySelector('input[name="subject"]').value,
         message: form.querySelector('input[name="message"]').value
   }
 
