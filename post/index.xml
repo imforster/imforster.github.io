@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2021, Ian Foster</copyright>
-    <lastBuildDate>Wed, 14 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.imfsoftware.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Nov 2022 19:24:52 -0700</lastBuildDate><atom:link href="https://blog.imfsoftware.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a second brain</title>
+      <link>https://blog.imfsoftware.com/post/buildasecondbrain/</link>
+      <pubDate>Sun, 13 Nov 2022 19:24:52 -0700</pubDate>
+      
+      <guid>https://blog.imfsoftware.com/post/buildasecondbrain/</guid>
+      <description>Building a second brain Recently I have discovered the value of offloading information from my mind to my second brain.
+Why a second brain? A second brain is a personal knowledge management system that supports offloading information= and improve information recall.
+Information Overload Continous interuptions such as: Email SMS/iMessage/WhatsApp Slack/Teams Social Networks (Facebook, Twitter, etc..) Calendar Notifications YouTube </description>
+    </item>
+    
     <item>
       <title>Cracking the Coding Interview Notes</title>
       <link>https://blog.imfsoftware.com/post/cracking_coding_interview_notes/</link>

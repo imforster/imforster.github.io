@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.imfsoftware.com/post/buildasecondbrain/</loc>
+    <lastmod>2022-11-13T19:24:52-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.imfsoftware.com/</loc>
+    <lastmod>2022-11-13T19:24:52-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.imfsoftware.com/post/</loc>
+    <lastmod>2022-11-13T19:24:52-07:00</lastmod>
+  </url><url>
     <loc>https://blog.imfsoftware.com/contact/</loc>
     <lastmod>2022-02-20T00:00:00+00:00</lastmod>
   </url><url>
@@ -9,12 +18,6 @@
     <lastmod>2021-07-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.imfsoftware.com/post/cracking_coding_interview_notes/</loc>
-    <lastmod>2021-07-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.imfsoftware.com/</loc>
-    <lastmod>2021-07-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.imfsoftware.com/post/</loc>
     <lastmod>2021-07-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.imfsoftware.com/tags/communication/</loc>
