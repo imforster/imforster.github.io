@@ -10,13 +10,14 @@
   
   
 <meta name="keywords" content="imforster blog">
-<meta property="og:locale" content='en)_US'>
+<meta property="og:locale" content='en_US'>
 <meta property="og:type" content="article">
 <meta property="og:title" content="My first hugo post">
-<meta property="og:description" content="What is HUGO?  Hugo is a static web site generation tool Written in Go Lang Content is written in markdown Good for blogs, static sites  How to setup a blog">
+<meta property="og:description" content="What is HUGO? Hugo is a static web site generation tool Written in Go Lang Content is written in markdown Good for blogs, static sites How to setup a blog site">
 <meta property="og:url" content="https://blog.imfsoftware.com/post/firstpost/">
 <meta property="og:image" content="https://blog.imfsoftware.com/images/street.jpg">
-<link rel="canonical" href="https://blog.imfsoftware.com/post/firstpost/"><link rel="apple-touch-icon" sizes="180x180" href='https://blog.imfsoftware.com/images/icons/apple-touch-icon.png'>
+<link rel="canonical" href="https://blog.imfsoftware.com/post/firstpost/">
+<link rel="apple-touch-icon" sizes="180x180" href='https://blog.imfsoftware.com/images/icons/apple-touch-icon.png'>
 <link rel="icon" type="image/png" sizes="32x32" href='https://blog.imfsoftware.com/images/icons/favicon-32x32.png'>
 <link rel="icon" type="image/png" sizes='16x16' href='https://blog.imfsoftware.com/images/icons/favicon-16x16.png'>
 <link rel="manifest" href='https://blog.imfsoftware.com/images/icons/site.webmanifest'>
@@ -73,12 +74,12 @@
 <h1 id="how-to-setup-a-blog-site-like-this">How to setup a blog site like this?</h1>
 <p><a href="https://www.youtube.com/watch?v=LIFvgrRxdt4">10 minute hugo/GitHubPages</a></p>
 <h1 id="update-configtoaml">Update config.toaml</h1>
-<pre><code>baseURL = &quot;https://&lt;username|company&gt;.github.io/&quot;
-languageCode = &quot;en-us&quot;
-title = &quot;Blog name&quot;
-theme = &quot;newsroom&quot;
-author = &quot;iforster&quot;
-copyright = &quot;Copyright © 2021, &lt;First and Last Name&gt;&quot;
+<pre tabindex="0"><code>baseURL = &#34;https://&lt;username|company&gt;.github.io/&#34;
+languageCode = &#34;en-us&#34;
+title = &#34;Blog name&#34;
+theme = &#34;newsroom&#34;
+author = &#34;iforster&#34;
+copyright = &#34;Copyright © 2021, &lt;First and Last Name&gt;&#34;
 canonifyurls = true
 paginate = 6
 
@@ -91,7 +92,7 @@ paginate = 6
   [markup.highlight]
     codeFences = true
     guessSyntax = false
-    hl_Lines = &quot;&quot;
+    hl_Lines = &#34;&#34;
     lineNoStart = 1
     lineNos = true
     lineNumbersInTable = false
@@ -100,11 +101,11 @@ paginate = 6
 
 # ids used below are not valid. Replace with valid ones
 [params]
-  # locale = &quot;en_US&quot;
-  # ga_analytics = &quot;&quot; # google analytics ID e.g UA-116386578-1
-  # ga_verify = &quot;&quot; # google verification code e.g 5jb-rxeBfITeJQKOuUss3ud6FPGTxXkCho-ZN5qlrZg
-  # twitter = &quot;&quot; # twitter handle e.g @weru
-  mainSections = [&quot;about&quot;, &quot;post&quot;, &quot;tags&quot;] # see https://gohugo.io/functions/where/#mainsections
+  # locale = &#34;en_US&#34;
+  # ga_analytics = &#34;&#34; # google analytics ID e.g UA-116386578-1
+  # ga_verify = &#34;&#34; # google verification code e.g 5jb-rxeBfITeJQKOuUss3ud6FPGTxXkCho-ZN5qlrZg
+  # twitter = &#34;&#34; # twitter handle e.g @weru
+  mainSections = [&#34;about&#34;, &#34;post&#34;, &#34;tags&#34;] # see https://gohugo.io/functions/where/#mainsections
   # uncomment the line below will disable darkmode by default.
   # disableDarkMode = true  # note that the UI control for toggling darkmode will remain in place. This way, the user can decide which mode they would like to use while browsing your website
 [params.widgets]
@@ -113,13 +114,13 @@ paginate = 6
   about = true
 </code></pre><h1 id="create-a-new-post">Create a new post</h1>
 <p>To create a new post using HUGO</p>
-<pre><code>hugo new post/&lt;new_postname&gt;.md
+<pre tabindex="0"><code>hugo new post/&lt;new_postname&gt;.md
 </code></pre><p>Here is some samplee code</p>
-<div class="highlight"><pre class="chroma"><code class="language-java" data-lang="java"><span class="ln">1</span>
-<span class="ln">2</span><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
-<span class="ln">3</span>  <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;Hello World!&#34;</span><span class="o">);</span>
-<span class="ln">4</span><span class="o">}</span>
-</code></pre></div><h1 id="resource">Resource</h1>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="ln">1</span><span class="cl">
+</span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="ln">3</span><span class="cl">  <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;Hello World!&#34;</span><span class="o">);</span>
+</span></span><span class="line"><span class="ln">4</span><span class="cl"><span class="o">}</span>
+</span></span></code></pre></div><h1 id="resource">Resource</h1>
 <p><a href="https://www.youtube.com/watch?v=LIFvgrRxdt4">10 minute hugo/GitHubPages</a>
 <a href="https://tangenttechnologies.ca/blog/hugo-themes/">Hugo Themes - extend layouts</a>
 <a href="https://www.banjocode.com/post/hugo/custom-css/">Add custom css/js to hugo theme</a>
@@ -153,7 +154,7 @@ paginate = 6
 </footer>
 
 
-<script src="https://blog.imfsoftware.com/js/index.min.f7c1bcde77952a19cea3357fb673e02d8fc8972efb2b0ba054276114011c25d484418970f59ea4d6a8713eeafe787062ca87f1edc2f2a7959b47b9fc0a3fb980.js"></script>
+<script src="https://blog.imfsoftware.com/js/index.min.5c50a4de42b1061112a14a41a220c13f8e2634431452a2e1bc7dec53ed64d62c6e1f59e09f05c7615be32a4150fe218657345bde970247ab11cf812ae589590a.js"></script>
 
     <svg width="0" height="0" class="hidden">
   <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699.428 699.428" id="copy">

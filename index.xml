@@ -14,7 +14,7 @@
       <pubDate>Sun, 20 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://blog.imfsoftware.com/contact/</guid>
-      <description>   Please fill in the form to submit your request Name  Email   Organization  Subject  Message      </description>
+      <description> Please fill in the form to submit your request Name Email Organization Subject Message </description>
     </item>
     
     <item>
@@ -24,8 +24,9 @@
       
       <guid>https://blog.imfsoftware.com/about/</guid>
       <description>Who am I? I am an experienced Software Engineer with a diverse professional experience. I am a person that always strives to look for opportunities that both advance my technical knowledge and improve upon ways of working.
- My profile: LinkedIn: ianmforster  Under the hood Hugo is the world’s fastest framework for building websites. It is written in Go.
-It makes use of a variety of open source projects including:</description>
+My profile: LinkedIn: ianmforster Under the hood Hugo is the world’s fastest framework for building websites. It is written in Go.
+It makes use of a variety of open source projects including:
+https://github.com/russross/blackfriday https://github.</description>
     </item>
     
     <item>
@@ -54,7 +55,7 @@ The intent of this blog post is to capture some practices to improve the collabo
       <pubDate>Sat, 10 Apr 2021 20:27:54 -0700</pubDate>
       
       <guid>https://blog.imfsoftware.com/post/designyourlife/</guid>
-      <description>Designing Your Life Notes Be Curious  Curiosity makes everything new  Try Stuff  Bias to action Try and fail fast Learn by doing Prototype  Reframe Problems  Reframe to get unstuck Step back, examine your biases, open up to different perspective  Know it&amp;rsquo;s a Process  Life gets messy Protypes don&amp;rsquo;t workout It is a journey not a destination  Ask for Help  Radical Collaboration It takes a team Use Mentors / team sport  Designers Ask  How do I &amp;hellip; How can I &amp;hellip; How might we improve upon this &amp;hellip;  Examples</description>
+      <description>Designing Your Life Notes Be Curious Curiosity makes everything new Try Stuff Bias to action Try and fail fast Learn by doing Prototype Reframe Problems Reframe to get unstuck Step back, examine your biases, open up to different perspective Know it&amp;rsquo;s a Process Life gets messy Protypes don&amp;rsquo;t workout It is a journey not a destination Ask for Help Radical Collaboration It takes a team Use Mentors / team sport Designers Ask How do I &amp;hellip; How can I &amp;hellip; How might we improve upon this &amp;hellip; Examples</description>
     </item>
     
     <item>
@@ -75,8 +76,8 @@ Problem: Given a number n the function must determine if n is prime and return t
       <pubDate>Sat, 10 Apr 2021 19:34:52 -0700</pubDate>
       
       <guid>https://blog.imfsoftware.com/post/artofspike/</guid>
-      <description>Art of Spike  Spike is used to finding out the missing element of the user story to complete. Developer has to estimate the spike story during the Sprint planning session.
- Why a Spike The reason to introduce a spike is that further analysis is required to determine the fesability to implement a technical solution is required. Also, when further study is required to determine the associated risk and/or cost benefits of functional solution options</description>
+      <description>Art of Spike Spike is used to finding out the missing element of the user story to complete. Developer has to estimate the spike story during the Sprint planning session.
+Why a Spike? The reason to introduce a spike is that further analysis is required to determine the fesability to implement a technical solution is required. Also, when further study is required to determine the associated risk and/or cost benefits of functional solution options</description>
     </item>
     
     <item>
@@ -95,8 +96,8 @@ A key aspect that I appreciate is the Index structure allows me to quickly navig
       <pubDate>Sat, 10 Apr 2021 16:37:18 -0700</pubDate>
       
       <guid>https://blog.imfsoftware.com/post/firstpost/</guid>
-      <description>What is HUGO?  Hugo is a static web site generation tool Written in Go Lang Content is written in markdown Good for blogs, static sites  How to setup a blog site like this? 10 minute hugo/GitHubPages
-Update config.toaml baseURL = &amp;quot;https://&amp;lt;username|company&amp;gt;.github.io/&amp;quot; languageCode = &amp;quot;en-us&amp;quot; title = &amp;quot;Blog name&amp;quot; theme = &amp;quot;newsroom&amp;quot; author = &amp;quot;iforster&amp;quot; copyright = &amp;quot;Copyright © 2021, &amp;lt;First and Last Name&amp;gt;&amp;quot; canonifyurls = true paginate = 6 [markup] [markup.</description>
+      <description>What is HUGO? Hugo is a static web site generation tool Written in Go Lang Content is written in markdown Good for blogs, static sites How to setup a blog site like this? 10 minute hugo/GitHubPages
+Update config.toaml baseURL = &amp;#34;https://&amp;lt;username|company&amp;gt;.github.io/&amp;#34; languageCode = &amp;#34;en-us&amp;#34; title = &amp;#34;Blog name&amp;#34; theme = &amp;#34;newsroom&amp;#34; author = &amp;#34;iforster&amp;#34; copyright = &amp;#34;Copyright © 2021, &amp;lt;First and Last Name&amp;gt;&amp;#34; canonifyurls = true paginate = 6 [markup] [markup.</description>
     </item>
     
     <item>
