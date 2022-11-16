@@ -171,6 +171,17 @@ Inspired by <em>Tiago Forte</em> book <em><strong>Building a Second Brain</stron
 </ul>
 </li>
 </ul>
+<h2 id="information-flow">Information flow</h2>
+<div class="mermaid">     flowchart TB
+        A(Email) --> C{Process} --> D{Future} 
+        C-->|Immediate| E[Read/Archive/Respond]
+        D -->|Later| F{Capture}
+        F -->|TODO| G(LogSeq Most Important/Maybe do-list)
+        F -->|Read/Later| H(Instapaper)
+        F -->|Reschedule| I(Future)
+        F -->|Watch/Later| J(LogSeq Videos)
+</div>
+
 <h1 id="so-why-so-many-tools">So why so many tools?</h1>
 <p>Each tool has a specific purpose and strength.  In my case I am using Todo apps to injest email and actions from slack/teams that I have yet to process.</p>
 <p>Calendar to manage events, meetings and appointments.</p>
@@ -184,6 +195,11 @@ Inspired by <em>Tiago Forte</em> book <em><strong>Building a Second Brain</stron
 <li><a href="https://todoist.com/">Todoist</a></li>
 </ul>
 
+					
+						<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+						<script>
+							mermaid.initialize({ startOnLoad: true });
+						</script>
 					
         </div>
         <div class="post_extra mb-2">
