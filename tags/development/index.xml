@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>development on imforster blog</title>
+    <link>https://blog.imfsoftware.com/tags/development/</link>
+    <description>Recent content in development on imforster blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2021, Ian Foster</copyright>
+    <lastBuildDate>Sun, 26 Oct 2025 20:46:37 -0700</lastBuildDate><atom:link href="https://blog.imfsoftware.com/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From Chaos To Structure: My AI Development Journey</title>
+      <link>https://blog.imfsoftware.com/post/ai-playground/</link>
+      <pubDate>Sun, 26 Oct 2025 20:46:37 -0700</pubDate>
+      
+      <guid>https://blog.imfsoftware.com/post/ai-playground/</guid>
+      <description>Picture this: It&amp;rsquo;s 7 AM, you&amp;rsquo;re on your first cup of coffee, and you&amp;rsquo;ve just discovered that your AI model can quickly help you explore an idea to establish whether it&amp;rsquo;s worth exploring further. Do you stop to write a formal specification, or do you ride the wave of discovery?
+Over the past year, I&amp;rsquo;ve lived in both worlds—the exhilarating chaos of AI experimentation and the structured discipline of traditional software design.</description>
+    </item>
+    
+  </channel>
+</rss>
