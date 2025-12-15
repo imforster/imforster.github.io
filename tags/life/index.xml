@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>life on imforster blog</title>
+    <title>Life on imforster blog</title>
     <link>https://blog.imfsoftware.com/tags/life/</link>
-    <description>Recent content in life on imforster blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Life on imforster blog</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright © 2021, Ian Foster</copyright>
-    <lastBuildDate>Sat, 10 Apr 2021 20:27:54 -0700</lastBuildDate><atom:link href="https://blog.imfsoftware.com/tags/life/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Feb 2021 16:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.imfsoftware.com/tags/life/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Designing Your Life</title>
       <link>https://blog.imfsoftware.com/post/designyourlife/</link>
       <pubDate>Sat, 10 Apr 2021 20:27:54 -0700</pubDate>
-      
       <guid>https://blog.imfsoftware.com/post/designyourlife/</guid>
-      <description>Designing Your Life Notes Be Curious Curiosity makes everything new Try Stuff Bias to action Try and fail fast Learn by doing Prototype Reframe Problems Reframe to get unstuck Step back, examine your biases, open up to different perspective Know it&amp;rsquo;s a Process Life gets messy Protypes don&amp;rsquo;t workout It is a journey not a destination Ask for Help Radical Collaboration It takes a team Use Mentors / team sport Designers Ask How do I &amp;hellip; How can I &amp;hellip; How might we improve upon this &amp;hellip; Examples</description>
+      <description>&lt;h1 id=&#34;designing-your-life-notes&#34;&gt;Designing Your Life Notes&lt;/h1&gt;&#xA;&lt;h2 id=&#34;be-curious&#34;&gt;Be Curious&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Curiosity makes everything new&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;try-stuff&#34;&gt;Try Stuff&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Bias to action&lt;/li&gt;&#xA;&lt;li&gt;Try and fail fast&lt;/li&gt;&#xA;&lt;li&gt;Learn by doing&lt;/li&gt;&#xA;&lt;li&gt;Prototype&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;reframe-problems&#34;&gt;Reframe Problems&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Reframe to get unstuck&lt;/li&gt;&#xA;&lt;li&gt;Step back, examine your biases, open up to different perspective&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;know-its-a-process&#34;&gt;Know it&amp;rsquo;s a Process&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Life gets messy&lt;/li&gt;&#xA;&lt;li&gt;Protypes don&amp;rsquo;t workout&lt;/li&gt;&#xA;&lt;li&gt;It is a journey not a destination&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;ask-for-help&#34;&gt;Ask for Help&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Radical Collaboration&lt;/li&gt;&#xA;&lt;li&gt;It takes a team&lt;/li&gt;&#xA;&lt;li&gt;Use Mentors / team sport&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;designers-ask&#34;&gt;Designers Ask&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;How do I &amp;hellip;&lt;/li&gt;&#xA;&lt;li&gt;How can I &amp;hellip;&lt;/li&gt;&#xA;&lt;li&gt;How might we improve upon this &amp;hellip;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Examples&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

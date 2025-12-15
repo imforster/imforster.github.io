@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>communication on imforster blog</title>
+    <title>Communication on imforster blog</title>
     <link>https://blog.imfsoftware.com/tags/communication/</link>
-    <description>Recent content in communication on imforster blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Communication on imforster blog</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright © 2021, Ian Foster</copyright>
-    <lastBuildDate>Sat, 24 Apr 2021 16:28:18 -0700</lastBuildDate><atom:link href="https://blog.imfsoftware.com/tags/communication/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Apr 2021 16:28:18 -0700</lastBuildDate>
+    <atom:link href="https://blog.imfsoftware.com/tags/communication/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Slack Best Practices</title>
       <link>https://blog.imfsoftware.com/post/slack-bestpractice/</link>
       <pubDate>Sat, 24 Apr 2021 16:28:18 -0700</pubDate>
-      
       <guid>https://blog.imfsoftware.com/post/slack-bestpractice/</guid>
-      <description>Introduction It is April of 2021, and we have been living for more than a year in the pandemic. As a result, it has meant that we all are spending a significant amount of time working, socializing and entertaining ourselves digitally.
-I work for a burgeoning startup focused on improving the private aviation space. Our firm makes extensive use of Slack as our primary means of communication.
-The intent of this blog post is to capture some practices to improve the collaboration experience in Slack.</description>
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;&#xA;&lt;p&gt;It is April of 2021, and we have been living for more than a year in the pandemic.&#xA;As a result, it has meant that we all are spending a significant amount of time working,&#xA;socializing and entertaining ourselves digitally.&lt;/p&gt;&#xA;&lt;p&gt;I work for a burgeoning startup focused on improving the private aviation space.  Our firm makes extensive use of Slack as our primary means of communication.&lt;/p&gt;&#xA;&lt;p&gt;The intent of this blog post is to capture some practices to improve the collaboration experience in Slack. The notes below are practices that can be implemented to help manage slack in a more effective&#xA;way.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

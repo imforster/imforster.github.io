@@ -4,54 +4,45 @@
     <title>Tags on imforster blog</title>
     <link>https://blog.imfsoftware.com/tags/</link>
     <description>Recent content in Tags on imforster blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright © 2021, Ian Foster</copyright>
-    <lastBuildDate>Sun, 26 Oct 2025 20:46:37 -0700</lastBuildDate><atom:link href="https://blog.imfsoftware.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Oct 2025 20:46:37 -0700</lastBuildDate>
+    <atom:link href="https://blog.imfsoftware.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ai</title>
+      <title>Ai</title>
       <link>https://blog.imfsoftware.com/tags/ai/</link>
       <pubDate>Sun, 26 Oct 2025 20:46:37 -0700</pubDate>
-      
       <guid>https://blog.imfsoftware.com/tags/ai/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>design</title>
+      <title>Design</title>
       <link>https://blog.imfsoftware.com/tags/design/</link>
       <pubDate>Sun, 26 Oct 2025 20:46:37 -0700</pubDate>
-      
       <guid>https://blog.imfsoftware.com/tags/design/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>development</title>
+      <title>Development</title>
       <link>https://blog.imfsoftware.com/tags/development/</link>
       <pubDate>Sun, 26 Oct 2025 20:46:37 -0700</pubDate>
-      
       <guid>https://blog.imfsoftware.com/tags/development/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>communication</title>
+      <title>Communication</title>
       <link>https://blog.imfsoftware.com/tags/communication/</link>
       <pubDate>Sat, 24 Apr 2021 16:28:18 -0700</pubDate>
-      
       <guid>https://blog.imfsoftware.com/tags/communication/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>life</title>
+      <title>Life</title>
       <link>https://blog.imfsoftware.com/tags/life/</link>
       <pubDate>Sat, 10 Apr 2021 20:27:54 -0700</pubDate>
-      
       <guid>https://blog.imfsoftware.com/tags/life/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

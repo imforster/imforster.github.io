@@ -4,114 +4,80 @@
     <title>Posts on imforster blog</title>
     <link>https://blog.imfsoftware.com/post/</link>
     <description>Recent content in Posts on imforster blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright © 2021, Ian Foster</copyright>
-    <lastBuildDate>Sat, 29 Nov 2025 20:35:07 -0800</lastBuildDate><atom:link href="https://blog.imfsoftware.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 Nov 2025 20:35:07 -0800</lastBuildDate>
+    <atom:link href="https://blog.imfsoftware.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Discovering AI: Your Journey Through 6 Levels of AI Mastery</title>
       <link>https://blog.imfsoftware.com/post/ai-mastery-levels/</link>
       <pubDate>Sat, 29 Nov 2025 20:35:07 -0800</pubDate>
-      
       <guid>https://blog.imfsoftware.com/post/ai-mastery-levels/</guid>
-      <description>Suggested: A futuristic game-style progression map or level selection screen with AI theme
-Discovering AI: Your Journey Through 6 Levels of AI Mastery Introduction: Choose Your Character Artificial intelligence isn&amp;rsquo;t just transforming technology—it&amp;rsquo;s reshaping how we work, create, and solve problems. But here&amp;rsquo;s the thing: you don&amp;rsquo;t need a PhD to start your AI journey. Like any good game, mastering AI is about progression, practice, and finding the right challenges for your current skill level.</description>
+      <description>&lt;p&gt;&lt;em&gt;Suggested: A futuristic game-style progression map or level selection screen with AI theme&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;discovering-ai-your-journey-through-6-levels-of-ai-mastery&#34;&gt;Discovering AI: Your Journey Through 6 Levels of AI Mastery&lt;/h1&gt;&#xA;&lt;h2 id=&#34;introduction-choose-your-character&#34;&gt;Introduction: Choose Your Character&lt;/h2&gt;&#xA;&lt;p&gt;Artificial intelligence isn&amp;rsquo;t just transforming technology—it&amp;rsquo;s reshaping how we work, create, and solve problems. But here&amp;rsquo;s the thing: you don&amp;rsquo;t need a PhD to start your AI journey. Like any good game, mastering AI is about progression, practice, and finding the right challenges for your current skill level.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>From Chaos To Structure: My AI Development Journey</title>
       <link>https://blog.imfsoftware.com/post/ai-playground/</link>
       <pubDate>Sun, 26 Oct 2025 20:46:37 -0700</pubDate>
-      
       <guid>https://blog.imfsoftware.com/post/ai-playground/</guid>
-      <description>Picture this: It&amp;rsquo;s 7 AM, you&amp;rsquo;re on your first cup of coffee, and you&amp;rsquo;ve just discovered that your AI model can quickly help you explore an idea to establish whether it&amp;rsquo;s worth exploring further. Do you stop to write a formal specification, or do you ride the wave of discovery?
-Over the past year, I&amp;rsquo;ve lived in both worlds—the exhilarating chaos of AI experimentation and the structured discipline of traditional software design.</description>
+      <description>&lt;p&gt;Picture this: It&amp;rsquo;s 7 AM, you&amp;rsquo;re on your first cup of coffee, and you&amp;rsquo;ve just discovered that your AI model can quickly help you explore an idea to establish whether it&amp;rsquo;s worth exploring further. Do you stop to write a formal specification, or do you ride the wave of discovery?&lt;/p&gt;&#xA;&lt;p&gt;Over the past year, I&amp;rsquo;ve lived in both worlds—the exhilarating chaos of AI experimentation and the structured discipline of traditional software design. What I&amp;rsquo;ve learned is that the future of AI development isn&amp;rsquo;t about choosing one approach over the other; it&amp;rsquo;s about knowing when to embrace the chaos and when to impose order.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Building a second brain</title>
       <link>https://blog.imfsoftware.com/post/buildasecondbrain/</link>
       <pubDate>Sun, 13 Nov 2022 19:24:52 -0700</pubDate>
-      
       <guid>https://blog.imfsoftware.com/post/buildasecondbrain/</guid>
-      <description>Everything not saved will be lost.
-—Nintendo “Quit Screen” message
-Recently I have discovered the value of offloading information from my mind to my second brain. Inspired by Tiago Forte book Building a Second Brain
-Why a second brain? A second brain is a personal knowledge management system that supports offloading information, improves information retrieval and memory recall.
-Your mind is for having ideas, not holding them.
-—David Allen, author of Getting Things Done</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Everything not saved will be lost.&lt;/p&gt;&#xA;&lt;p&gt;—Nintendo “Quit Screen” message&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Recently I have discovered the value of offloading information from my mind to my second brain.&#xA;Inspired by &lt;em&gt;Tiago Forte&lt;/em&gt; book &lt;em&gt;&lt;strong&gt;Building a Second Brain&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-a-second-brain&#34;&gt;Why a second brain?&lt;/h2&gt;&#xA;&lt;p&gt;A second brain is a personal knowledge management system that supports offloading information, improves information retrieval and memory recall.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Your mind is for having ideas, not holding them.&lt;/p&gt;&#xA;&lt;p&gt;—David Allen, author of Getting Things Done&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Cracking the Coding Interview Notes</title>
       <link>https://blog.imfsoftware.com/post/cracking_coding_interview_notes/</link>
       <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.imfsoftware.com/post/cracking_coding_interview_notes/</guid>
-      <description>Overview Don&amp;rsquo;t get stuck in the coding interview. The book Cracking the Coding Interview is a popular resource that assists in preparing for the technical interview process. As a senior engineer, I have observed that like many aspects of the industry we are constantly iterating and improving including interviewing. The big companies all provide materials to ensure that the interviewee is prepared for this process technically. But the following steps help you structure your thought process for the interview.</description>
+      <description>&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;&#xA;&lt;p&gt;Don&amp;rsquo;t get stuck in the coding interview.  The book &lt;a href=&#34;https://github.com/black-shadows/Cracking-the-Coding-Interview&#34;&gt;Cracking the Coding Interview&lt;/a&gt; is a popular resource that assists in preparing for the technical interview process. As a senior engineer, I have observed that like many aspects of the industry&#xA;we are constantly iterating and improving including interviewing.  The big companies all provide materials to ensure that the interviewee is prepared for&#xA;this process technically.  But the following steps help you structure your thought process for the interview.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Slack Best Practices</title>
       <link>https://blog.imfsoftware.com/post/slack-bestpractice/</link>
       <pubDate>Sat, 24 Apr 2021 16:28:18 -0700</pubDate>
-      
       <guid>https://blog.imfsoftware.com/post/slack-bestpractice/</guid>
-      <description>Introduction It is April of 2021, and we have been living for more than a year in the pandemic. As a result, it has meant that we all are spending a significant amount of time working, socializing and entertaining ourselves digitally.
-I work for a burgeoning startup focused on improving the private aviation space. Our firm makes extensive use of Slack as our primary means of communication.
-The intent of this blog post is to capture some practices to improve the collaboration experience in Slack.</description>
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;&#xA;&lt;p&gt;It is April of 2021, and we have been living for more than a year in the pandemic.&#xA;As a result, it has meant that we all are spending a significant amount of time working,&#xA;socializing and entertaining ourselves digitally.&lt;/p&gt;&#xA;&lt;p&gt;I work for a burgeoning startup focused on improving the private aviation space.  Our firm makes extensive use of Slack as our primary means of communication.&lt;/p&gt;&#xA;&lt;p&gt;The intent of this blog post is to capture some practices to improve the collaboration experience in Slack. The notes below are practices that can be implemented to help manage slack in a more effective&#xA;way.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Designing Your Life</title>
       <link>https://blog.imfsoftware.com/post/designyourlife/</link>
       <pubDate>Sat, 10 Apr 2021 20:27:54 -0700</pubDate>
-      
       <guid>https://blog.imfsoftware.com/post/designyourlife/</guid>
-      <description>Designing Your Life Notes Be Curious Curiosity makes everything new Try Stuff Bias to action Try and fail fast Learn by doing Prototype Reframe Problems Reframe to get unstuck Step back, examine your biases, open up to different perspective Know it&amp;rsquo;s a Process Life gets messy Protypes don&amp;rsquo;t workout It is a journey not a destination Ask for Help Radical Collaboration It takes a team Use Mentors / team sport Designers Ask How do I &amp;hellip; How can I &amp;hellip; How might we improve upon this &amp;hellip; Examples</description>
+      <description>&lt;h1 id=&#34;designing-your-life-notes&#34;&gt;Designing Your Life Notes&lt;/h1&gt;&#xA;&lt;h2 id=&#34;be-curious&#34;&gt;Be Curious&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Curiosity makes everything new&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;try-stuff&#34;&gt;Try Stuff&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Bias to action&lt;/li&gt;&#xA;&lt;li&gt;Try and fail fast&lt;/li&gt;&#xA;&lt;li&gt;Learn by doing&lt;/li&gt;&#xA;&lt;li&gt;Prototype&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;reframe-problems&#34;&gt;Reframe Problems&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Reframe to get unstuck&lt;/li&gt;&#xA;&lt;li&gt;Step back, examine your biases, open up to different perspective&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;know-its-a-process&#34;&gt;Know it&amp;rsquo;s a Process&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Life gets messy&lt;/li&gt;&#xA;&lt;li&gt;Protypes don&amp;rsquo;t workout&lt;/li&gt;&#xA;&lt;li&gt;It is a journey not a destination&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;ask-for-help&#34;&gt;Ask for Help&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Radical Collaboration&lt;/li&gt;&#xA;&lt;li&gt;It takes a team&lt;/li&gt;&#xA;&lt;li&gt;Use Mentors / team sport&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;designers-ask&#34;&gt;Designers Ask&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;How do I &amp;hellip;&lt;/li&gt;&#xA;&lt;li&gt;How can I &amp;hellip;&lt;/li&gt;&#xA;&lt;li&gt;How might we improve upon this &amp;hellip;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Examples&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Math Coding Problems - Interview Problems</title>
       <link>https://blog.imfsoftware.com/post/mathcodesnipets/</link>
       <pubDate>Sat, 10 Apr 2021 20:04:29 -0700</pubDate>
-      
       <guid>https://blog.imfsoftware.com/post/mathcodesnipets/</guid>
-      <description>Some common math coding exercises used as interview programming questions
-isPrime An algorigthm to compute a Prime Number which is greater than 1 and only divisbile by one and itself. For example Prime numbers are 1,2,3,5,7,11,13,17..
-Problem: Given a number n the function must determine if n is prime and return true/false.
-1boolean isPrime(int n) { 2 for (int x=2; x*x &amp;lt;=n; x++) { 3 if (n % x == 0) { 4 return false; 5 } 6 } 7 return true; 8} Time Complexity: Analyzing this code fragment has a time complexity of o(n/2)</description>
+      <description>&lt;p&gt;Some common math coding exercises used as interview programming questions&lt;/p&gt;&#xA;&lt;h1 id=&#34;isprime&#34;&gt;isPrime&lt;/h1&gt;&#xA;&lt;p&gt;An algorigthm to compute a &lt;strong&gt;Prime Number&lt;/strong&gt; which is greater than 1 and only divisbile by one and itself. For example Prime numbers are 1,2,3,5,7,11,13,17..&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt; Given a number n the function must determine if n is prime and return true/false.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;boolean&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;isPrime&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;==&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;return&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;7&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;return&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Time Complexity:&lt;/strong&gt; Analyzing this code fragment has a time complexity of o(n/2)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The art of the spike</title>
       <link>https://blog.imfsoftware.com/post/artofspike/</link>
       <pubDate>Sat, 10 Apr 2021 19:34:52 -0700</pubDate>
-      
       <guid>https://blog.imfsoftware.com/post/artofspike/</guid>
-      <description>Art of Spike Spike is used to finding out the missing element of the user story to complete. Developer has to estimate the spike story during the Sprint planning session.
-Why a Spike? The reason to introduce a spike is that further analysis is required to determine the fesability to implement a technical solution is required. Also, when further study is required to determine the associated risk and/or cost benefits of functional solution options</description>
+      <description>&lt;h1 id=&#34;art-of-spike&#34;&gt;Art of Spike&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Spike is used to finding out the missing element of the user story to complete. Developer has to estimate the spike story during the Sprint planning session.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;why-a-spike&#34;&gt;Why a Spike?&lt;/h2&gt;&#xA;&lt;p&gt;The reason to introduce a spike is that further analysis is required to determine the fesability to implement a technical solution is required. Also, when further study is required to determine the associated risk and/or cost benefits of functional solution options&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to use Analog to cope with Digital World - BulletJournel</title>
       <link>https://blog.imfsoftware.com/post/bulletjournal/</link>
       <pubDate>Sat, 10 Apr 2021 18:18:40 -0700</pubDate>
-      
       <guid>https://blog.imfsoftware.com/post/bulletjournal/</guid>
-      <description>Why create a Bullet journal About a year and half ago I was introduced to the concept of the Bullet Journal as a GTD tool. As a software engineer one might wonder why an analog tool. The simplicity of a notebook that is follows the Buillet Journal structure as outline below.
-A key aspect that I appreciate is the Index structure allows me to quickly navigate. No blue-light making it a great way to review tasks.</description>
+      <description>&lt;h1 id=&#34;why-create-a-bullet-journal&#34;&gt;Why create a Bullet journal&lt;/h1&gt;&#xA;&lt;p&gt;About a year and half ago I was introduced to the concept of the Bullet Journal as a GTD tool. As a software engineer one might wonder why an analog tool. The simplicity of a notebook that is follows the Buillet Journal structure as outline below.&lt;/p&gt;&#xA;&lt;p&gt;A key aspect that I appreciate is the Index structure allows me to quickly navigate.  No blue-light making it a great way to review tasks.  Especially during the time of the pandemic when we all spend even more time on screens (Zoom, slack and development)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>My first hugo post</title>
       <link>https://blog.imfsoftware.com/post/firstpost/</link>
       <pubDate>Sat, 10 Apr 2021 16:37:18 -0700</pubDate>
-      
       <guid>https://blog.imfsoftware.com/post/firstpost/</guid>
-      <description>What is HUGO? Hugo is a static web site generation tool Written in Go Lang Content is written in markdown Good for blogs, static sites How to setup a blog site like this? 10 minute hugo/GitHubPages
-Update config.toaml baseURL = &amp;#34;https://&amp;lt;username|company&amp;gt;.github.io/&amp;#34; languageCode = &amp;#34;en-us&amp;#34; title = &amp;#34;Blog name&amp;#34; theme = &amp;#34;newsroom&amp;#34; author = &amp;#34;iforster&amp;#34; copyright = &amp;#34;Copyright © 2021, &amp;lt;First and Last Name&amp;gt;&amp;#34; canonifyurls = true paginate = 6 [markup] [markup.</description>
+      <description>&lt;h1 id=&#34;what-is-hugo&#34;&gt;What is HUGO?&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Hugo is a static web site generation tool&lt;/li&gt;&#xA;&lt;li&gt;Written in Go Lang&lt;/li&gt;&#xA;&lt;li&gt;Content is written in markdown&lt;/li&gt;&#xA;&lt;li&gt;Good for blogs, static sites&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;how-to-setup-a-blog-site-like-this&#34;&gt;How to setup a blog site like this?&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=LIFvgrRxdt4&#34;&gt;10 minute hugo/GitHubPages&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;update-configtoaml&#34;&gt;Update config.toaml&lt;/h1&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;baseURL = &amp;#34;https://&amp;lt;username|company&amp;gt;.github.io/&amp;#34;&#xA;languageCode = &amp;#34;en-us&amp;#34;&#xA;title = &amp;#34;Blog name&amp;#34;&#xA;theme = &amp;#34;newsroom&amp;#34;&#xA;author = &amp;#34;iforster&amp;#34;&#xA;copyright = &amp;#34;Copyright © 2021, &amp;lt;First and Last Name&amp;gt;&amp;#34;&#xA;canonifyurls = true&#xA;paginate = 6&#xA;&#xA;[markup]&#xA;  [markup.goldmark.renderer]&#xA;    definitionList = true&#xA;    hardWraps = false&#xA;    unsafe = false # change to true to enable inclusion of rawHTML and math functions&#xA;    xhtml = false&#xA;  [markup.highlight]&#xA;    codeFences = true&#xA;    guessSyntax = false&#xA;    hl_Lines = &amp;#34;&amp;#34;&#xA;    lineNoStart = 1&#xA;    lineNos = true&#xA;    lineNumbersInTable = false&#xA;    noClasses = false&#xA;    tabWidth = 2&#xA;&#xA;# ids used below are not valid. Replace with valid ones&#xA;[params]&#xA;  # locale = &amp;#34;en_US&amp;#34;&#xA;  # ga_analytics = &amp;#34;&amp;#34; # google analytics ID e.g UA-116386578-1&#xA;  # ga_verify = &amp;#34;&amp;#34; # google verification code e.g 5jb-rxeBfITeJQKOuUss3ud6FPGTxXkCho-ZN5qlrZg&#xA;  # twitter = &amp;#34;&amp;#34; # twitter handle e.g @weru&#xA;  mainSections = [&amp;#34;about&amp;#34;, &amp;#34;post&amp;#34;, &amp;#34;tags&amp;#34;] # see https://gohugo.io/functions/where/#mainsections&#xA;  # uncomment the line below will disable darkmode by default.&#xA;  # disableDarkMode = true  # note that the UI control for toggling darkmode will remain in place. This way, the user can decide which mode they would like to use while browsing your website&#xA;[params.widgets]&#xA;  categories = true&#xA;  tags = true&#xA;  about = true&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;create-a-new-post&#34;&gt;Create a new post&lt;/h1&gt;&#xA;&lt;p&gt;To create a new post using HUGO&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
