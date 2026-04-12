@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" >
   <head>
-  <title>From second brain to llm wiki | imforster blog</title>
+  <title>From second brain to llm wiki how i built a compounding knowledge base with ai | imforster blog</title>
   <meta charset='utf-8'>
   <meta name="viewport" content ="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,9 +20,8 @@
 <meta name="keywords" content="imforster blog">
 <meta property="og:locale" content='en_US'>
 <meta property="og:type" content="article">
-<meta property="og:title" content="From Second Brain To LLM Wiki">
-<meta property="og:description" content="How I Built a Compounding Knowledge Base with AI
-A few years ago I wrote about building a second brain — offloading information from my head into Logseq (which">
+<meta property="og:title" content="From Second Brain To LLM Wiki: How I Built a Compounding Knowledge Base with AI">
+<meta property="og:description" content="A few years ago I wrote about building a second brain — offloading information from my head into Logseq (which uses markdown, so it&rsquo;s compatible with">
 <meta property="og:url" content="https://blog.imfsoftware.com/post/llm-wiki/">
 <meta property="og:image" content="https://blog.imfsoftware.com/images/llm-wiki-hero.jpg"><meta property="article:published_time" content="2026-11-04" />
   <script type="application/ld+json">
@@ -31,8 +30,8 @@ A few years ago I wrote about building a second brain — offloading information
       "@type": "BlogPosting",
       "mainEntityOfPage":"https:\/\/blog.imfsoftware.com\/post\/llm-wiki\/",
       "name": "imforster blog",
-      "headline": "From Second Brain To LLM Wiki",
-      "description": "\u003ch1 id=\u0022how-i-built-a-compounding-knowledge-base-with-ai\u0022\u003eHow I Built a Compounding Knowledge Base with AI\u003c\/h1\u003e\n\u003cp\u003eA few years ago I wrote about \u003ca href=\u0022\/post\/buildasecondbrain\/\u0022\u003ebuilding a second brain\u003c\/a\u003e — offloading information from my head into \u003ca href=\u0022https:\/\/logseq.com\/\u0022\u003eLogseq\u003c\/a\u003e (which\u003c\/p\u003e",
+      "headline": "From Second Brain To LLM Wiki: How I Built a Compounding Knowledge Base with AI",
+      "description": "\u003cp\u003eA few years ago I wrote about \u003ca href=\u0022\/post\/buildasecondbrain\/\u0022\u003ebuilding a second brain\u003c\/a\u003e — offloading information from my head into \u003ca href=\u0022https:\/\/logseq.com\/\u0022\u003eLogseq\u003c\/a\u003e (which uses markdown, so it\u0026rsquo;s compatible with\u003c\/p\u003e",
       "url": "https:\/\/blog.imfsoftware.com\/post\/llm-wiki\/",
       "datePublished": "2026-11-04",
       "dateModified": "2026-11-04",
@@ -56,9 +55,8 @@ A few years ago I wrote about building a second brain — offloading information
   </script>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:creator" content="">
-  <meta name="twitter:title" content="From Second Brain To LLM Wiki">
-  <meta name="twitter:description" content="How I Built a Compounding Knowledge Base with AI
-A few years ago I wrote about building a second brain — offloading information from my head into Logseq (which">
+  <meta name="twitter:title" content="From Second Brain To LLM Wiki: How I Built a Compounding Knowledge Base with AI">
+  <meta name="twitter:description" content="A few years ago I wrote about building a second brain — offloading information from my head into Logseq (which uses markdown, so it&rsquo;s compatible with">
   <meta name="twitter:image" content="https://blog.imfsoftware.com/images/llm-wiki-hero.jpg">
 <link rel="canonical" href="https://blog.imfsoftware.com/post/llm-wiki/">
 
@@ -102,15 +100,14 @@ A few years ago I wrote about building a second brain — offloading information
       
   <div class="wrap mt post">
     <div><p class=post_date>11. April 2026</p>
-      <h1 class="post_title">From Second Brain To LLM Wiki</h1>
+      <h1 class="post_title">From Second Brain To LLM Wiki: How I Built a Compounding Knowledge Base with AI</h1>
       <div class="post_body">
         <div class="post_inner">
         
         
           <img src="https://blog.imfsoftware.com/images/llm-wiki-hero.jpg" alt="https://blog.imfsoftware.com/images/llm-wiki-hero.jpg" class="post_thumbnail">
         
-          <h1 id="how-i-built-a-compounding-knowledge-base-with-ai">How I Built a Compounding Knowledge Base with AI</h1>
-<p>A few years ago I wrote about <a href="https://blog.imfsoftware.com/post/buildasecondbrain/">building a second brain</a> — offloading information from my head into <a href="https://logseq.com/">Logseq</a> (which uses markdown, so it&rsquo;s compatible with <a href="https://obsidian.md">Obsidian</a> too), using Tiago Forte&rsquo;s P.A.R.A. method to tame the chaos. That system changed how I work. But with recent advances in AI and trying to stay on top of emerging trends I needed help.</p>
+          <p>A few years ago I wrote about <a href="https://blog.imfsoftware.com/post/buildasecondbrain/">building a second brain</a> — offloading information from my head into <a href="https://logseq.com/">Logseq</a> (which uses markdown, so it&rsquo;s compatible with <a href="https://obsidian.md">Obsidian</a> too), using Tiago Forte&rsquo;s P.A.R.A. method to tame the chaos. That system changed how I work. But with recent advances in AI and trying to stay on top of emerging trends I needed help.</p>
 <p>I was drowning in AI sources. Podcasts, docs, GitHub repos, blog posts — all about the agentic AI ecosystem. I&rsquo;d read something brilliant, file it in Obsidian, and three weeks later forget it existed. Worse, I couldn&rsquo;t see the connections <em>between</em> sources. How does Kiro&rsquo;s context management relate to Anthropic&rsquo;s skill standard? Where does Fabric fit in the stack? My second brain had the raw material, but no synthesis.</p>
 <p>Then I found Andrej Karpathy&rsquo;s <a href="https://blog.imfsoftware.com/llm-wiki/docs/concepts/llm-wiki-pattern/">LLM Wiki pattern</a> — and everything clicked.</p>
 <h2 id="the-problem-with-rag-and-my-notes">The Problem with RAG (and My Notes)</h2>
@@ -233,7 +230,6 @@ A few years ago I wrote about building a second brain — offloading information
 <li><a href="https://blog.imfsoftware.com/post/buildasecondbrain/">Building a Second Brain (my earlier post)</a></li>
 <li><a href="https://obsidian.md">Obsidian</a></li>
 </ul>
-
         </div>
         <div class="post_extra mb-2">
           

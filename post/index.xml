@@ -10,11 +10,11 @@
     <lastBuildDate>Sat, 11 Apr 2026 21:00:00 -0700</lastBuildDate>
     <atom:link href="https://blog.imfsoftware.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>From Second Brain To LLM Wiki</title>
+      <title>From Second Brain To LLM Wiki: How I Built a Compounding Knowledge Base with AI</title>
       <link>https://blog.imfsoftware.com/post/llm-wiki/</link>
       <pubDate>Sat, 11 Apr 2026 21:00:00 -0700</pubDate>
       <guid>https://blog.imfsoftware.com/post/llm-wiki/</guid>
-      <description>&lt;h1 id=&#34;how-i-built-a-compounding-knowledge-base-with-ai&#34;&gt;How I Built a Compounding Knowledge Base with AI&lt;/h1&gt;&#xA;&lt;p&gt;A few years ago I wrote about &lt;a href=&#34;https://blog.imfsoftware.com/post/buildasecondbrain/&#34;&gt;building a second brain&lt;/a&gt; — offloading information from my head into &lt;a href=&#34;https://logseq.com/&#34;&gt;Logseq&lt;/a&gt; (which uses markdown, so it&amp;rsquo;s compatible with &lt;a href=&#34;https://obsidian.md&#34;&gt;Obsidian&lt;/a&gt; too), using Tiago Forte&amp;rsquo;s P.A.R.A. method to tame the chaos. That system changed how I work. But with recent advances in AI and trying to stay on top of emerging trends I needed help.&lt;/p&gt;&#xA;&lt;p&gt;I was drowning in AI sources. Podcasts, docs, GitHub repos, blog posts — all about the agentic AI ecosystem. I&amp;rsquo;d read something brilliant, file it in Obsidian, and three weeks later forget it existed. Worse, I couldn&amp;rsquo;t see the connections &lt;em&gt;between&lt;/em&gt; sources. How does Kiro&amp;rsquo;s context management relate to Anthropic&amp;rsquo;s skill standard? Where does Fabric fit in the stack? My second brain had the raw material, but no synthesis.&lt;/p&gt;</description>
+      <description>&lt;p&gt;A few years ago I wrote about &lt;a href=&#34;https://blog.imfsoftware.com/post/buildasecondbrain/&#34;&gt;building a second brain&lt;/a&gt; — offloading information from my head into &lt;a href=&#34;https://logseq.com/&#34;&gt;Logseq&lt;/a&gt; (which uses markdown, so it&amp;rsquo;s compatible with &lt;a href=&#34;https://obsidian.md&#34;&gt;Obsidian&lt;/a&gt; too), using Tiago Forte&amp;rsquo;s P.A.R.A. method to tame the chaos. That system changed how I work. But with recent advances in AI and trying to stay on top of emerging trends I needed help.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Discovering AI: Your Journey Through 6 Levels of AI Mastery</title>

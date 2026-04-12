@@ -17,4 +17,10 @@ ul.a {
 .article:hover a {
   color: var(--text) !important;
 }
+
+@media screen and (min-width: 42rem) {
+  .grid-reverse {
+    grid-template-columns: 2fr 1fr;
+  }
+}
 </style>
