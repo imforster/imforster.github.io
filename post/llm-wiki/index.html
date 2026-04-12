@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+  <title>From second brain to llm wiki how i built a compounding knowledge base with ai | imforster blog</title>
+  <meta charset='utf-8'>
+  <meta name="viewport" content ="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TL65W4VNB3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-TL65W4VNB3');
+</script>
+
+
+
+  
+  
+<meta name="keywords" content="imforster blog">
+<meta property="og:locale" content='en_US'>
+<meta property="og:type" content="article">
+<meta property="og:title" content="From Second Brain to LLM Wiki: How I Built a Compounding Knowledge Base with AI">
+<meta property="og:description" content="A few years ago I wrote about building a second brain — offloading information from my head into Logseq (which uses markdown, so it&rsquo;s compatible with">
+<meta property="og:url" content="https://blog.imfsoftware.com/post/llm-wiki/">
+<meta property="og:image" content="https://blog.imfsoftware.com/images/llm-wiki-hero.jpg"><meta property="article:published_time" content="2026-11-04" />
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "mainEntityOfPage":"https:\/\/blog.imfsoftware.com\/post\/llm-wiki\/",
+      "name": "imforster blog",
+      "headline": "From Second Brain to LLM Wiki: How I Built a Compounding Knowledge Base with AI",
+      "description": "\u003cp\u003eA few years ago I wrote about \u003ca href=\u0022\/post\/buildasecondbrain\/\u0022\u003ebuilding a second brain\u003c\/a\u003e — offloading information from my head into \u003ca href=\u0022https:\/\/logseq.com\/\u0022\u003eLogseq\u003c\/a\u003e (which uses markdown, so it\u0026rsquo;s compatible with\u003c\/p\u003e",
+      "url": "https:\/\/blog.imfsoftware.com\/post\/llm-wiki\/",
+      "datePublished": "2026-11-04",
+      "dateModified": "2026-11-04",
+      "author": {
+        "@type": "Person",
+        "name": ""
+      },
+      "image":{
+        "@type":"ImageObject",
+        "url": "https:\/\/blog.imfsoftware.com\/images\/llm-wiki-hero.jpg"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "logo": {
+          "@type":"ImageObject",
+          "url": "images\/%!s(\u003cnil\u003e)"
+        },
+        "name": "imforster blog"
+      }
+    }
+  </script>
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="">
+  <meta name="twitter:title" content="From Second Brain to LLM Wiki: How I Built a Compounding Knowledge Base with AI">
+  <meta name="twitter:description" content="A few years ago I wrote about building a second brain — offloading information from my head into Logseq (which uses markdown, so it&rsquo;s compatible with">
+  <meta name="twitter:image" content="https://blog.imfsoftware.com/images/llm-wiki-hero.jpg">
+<link rel="canonical" href="https://blog.imfsoftware.com/post/llm-wiki/">
+
+<link rel="apple-touch-icon" sizes="180x180" href='https://blog.imfsoftware.com/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='https://blog.imfsoftware.com/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes='16x16' href='https://blog.imfsoftware.com/favicon-16x16.png'>
+<link rel="manifest" href='https://blog.imfsoftware.com/site.webmanifest'>
+
+<link rel="stylesheet" href="https://blog.imfsoftware.com/css/styles.648e60c6d86809f863ae1346848574b9c685732794e7851c7d3e557de9ddd293bc1c209f963d5041785c2fd4268470bdfde453a99f550b655d1b4f825eed4682.css" integrity="sha512-ZI5gxthoCfhjrhNGhIV0ucaFcyeU54UcfT5Vfend0pO8HCCflj1QQXhcL9QmhHC9/eRTqZ9VC2VdG0&#43;CXu1Ggg==">
+
+  <link rel="stylesheet" href="https://blog.imfsoftware.com/css/custom.css">
+  <script type="text/javascript" src="https://blog.imfsoftware.com/js/custom.js"></script>
+</head>
+
+  <body>
+    <div class="nav-drop">
+  <div class="nav-body">
+      <a href="https://blog.imfsoftware.com/about/" class="nav_item">About</a>
+      <a href="https://blog.imfsoftware.com/" class="nav_item">Blog</a>
+      <a href="https://blog.imfsoftware.com/categories" class="nav_item">Category</a>
+      <a href="https://blog.imfsoftware.com/tags" class="nav_item">Tag</a>
+      <a href="https://blog.imfsoftware.com/contact/" class="nav_item">Contact</a>
+    <div class="nav-close"></div><div class="color_mode">
+  <label for="mode">Toggle Dark Mode</label>
+  <input type="checkbox" class="color_choice" id="mode">
+</div>
+
+  </div>
+</div>
+<header class="nav">
+  <nav class="nav-menu">
+    <a href=https://blog.imfsoftware.com/ class="nav-brand nav_item">
+        imforster blog</a>
+    <div class="nav_bar-wrap">
+      <div class="nav_bar"></div>
+    </div>
+  </nav>
+</header>
+
+    <main>
+      
+  <div class="wrap mt post">
+    <div><p class=post_date>11. April 2026</p>
+      <h1 class="post_title">From Second Brain to LLM Wiki: How I Built a Compounding Knowledge Base with AI</h1>
+      <div class="post_body">
+        <div class="post_inner">
+        
+        
+          <img src="https://blog.imfsoftware.com/images/llm-wiki-hero.jpg" alt="https://blog.imfsoftware.com/images/llm-wiki-hero.jpg" class="post_thumbnail">
+        
+          <p>A few years ago I wrote about <a href="https://blog.imfsoftware.com/post/buildasecondbrain/">building a second brain</a> — offloading information from my head into <a href="https://logseq.com/">Logseq</a> (which uses markdown, so it&rsquo;s compatible with <a href="https://obsidian.md">Obsidian</a> too), using Tiago Forte&rsquo;s P.A.R.A. method to tame the chaos. That system changed how I work. But with recent advances in AI and trying to stay on top of emerging trends I needed help.</p>
+<p>I was drowning in AI sources. Podcasts, docs, GitHub repos, blog posts — all about the agentic AI ecosystem. I&rsquo;d read something brilliant, file it in Obsidian, and three weeks later forget it existed. Worse, I couldn&rsquo;t see the connections <em>between</em> sources. How does Kiro&rsquo;s context management relate to Anthropic&rsquo;s skill standard? Where does Fabric fit in the stack? My second brain had the raw material, but no synthesis.</p>
+<p>Then I found Andrej Karpathy&rsquo;s <a href="https://blog.imfsoftware.com/llm-wiki/docs/concepts/llm-wiki-pattern/">LLM Wiki pattern</a> — and everything clicked.</p>
+<h2 id="the-problem-with-rag-and-my-notes">The Problem with RAG (and My Notes)</h2>
+<p>The core insight is deceptively simple: <strong>Wiki &gt; RAG.</strong></p>
+<p>RAG (Retrieval-Augmented Generation) rediscovers knowledge from scratch on every query. You ask a question, it searches your documents, pulls relevant chunks, and synthesizes an answer. It works, but nothing compounds. Ask the same question tomorrow and it does the same work again. There&rsquo;s no accumulation.</p>
+<p>My Obsidian vault had the same problem at a different scale. The notes were there, but the <em>synthesis</em> lived only in my head. I was the one maintaining cross-references, spotting contradictions, connecting ideas across sources. And I&rsquo;m not great at that when I have 17 sources across tools, standards, methodologies, and practitioner insights.</p>
+<p>Karpathy&rsquo;s idea: let the LLM do the maintenance. Humans curate sources, direct analysis, and ask good questions. The LLM does everything else — summarizing, cross-referencing, filing, and bookkeeping.</p>
+<h2 id="how-it-works-three-layers-three-operations">How It Works: Three Layers, Three Operations</h2>
+<p>The architecture is clean:</p>
+<pre tabindex="0"><code>Raw Sources (immutable)  →  Wiki (LLM-maintained)  →  Schema (CLAUDE.md)
+   you add these              LLM writes these         you + LLM co-evolve
+</code></pre><ol>
+<li><strong>Raw sources</strong> — Immutable documents. The LLM reads them but never modifies them.</li>
+<li><strong>The wiki</strong> — LLM-generated markdown. Entities, concepts, comparisons, synthesis. The LLM owns this entirely.</li>
+<li><strong>The schema</strong> — Instructions telling the LLM how the wiki works. Structure, conventions, workflows.</li>
+</ol>
+<p>And three operations:</p>
+<ul>
+<li><strong>Ingest</strong>: Drop a source in, the LLM processes it, creates or updates 10-15 wiki pages, updates the index, appends to the log.</li>
+<li><strong>Query</strong>: Ask a question, the LLM reads the index, finds relevant pages, synthesizes an answer — and optionally files the answer back as a new analysis page.</li>
+<li><strong>Lint</strong>: Health-check for contradictions, orphan pages, stale claims, missing cross-references.</li>
+</ul>
+<h2 id="what-i-built">What I Built</h2>
+<p>I applied this pattern to map the agentic AI landscape. The result is my <a href="https://blog.imfsoftware.com/llm-wiki/docs/">LLM Wiki</a> — 17 sources ingested, producing 18 concept pages, 16 entity pages, and 4 synthesized analyses.</p>
+<p>The sources span the full stack:</p>
+<ul>
+<li><strong>Tools</strong>: Scion, Kiro, Claude Code, Fabric, Paperclip, Promptfoo, NotebookLM</li>
+<li><strong>Methodologies</strong>: Spec-Kit, BMAD Method, Ten Pillars of Agentic Skill Design</li>
+<li><strong>Standards</strong>: Agent Skills Standard, MCP Protocol</li>
+<li><strong>Evaluation</strong>: Anthropic&rsquo;s eval guide, Promptfoo</li>
+<li><strong>Practitioner insights</strong>: Real-world patterns from podcasts and skill pipelines</li>
+</ul>
+<p>What emerged was something I couldn&rsquo;t have built manually — a five-layer stack that kept surfacing across all the sources:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Layer</th>
+          <th>Tools</th>
+          <th>Focus</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Company</td>
+          <td>Paperclip</td>
+          <td>Org charts, budgets, governance</td>
+      </tr>
+      <tr>
+          <td>Methodology</td>
+          <td>Spec-Kit, BMAD</td>
+          <td>Specs, plans, quality gates</td>
+      </tr>
+      <tr>
+          <td>Infrastructure</td>
+          <td>Scion</td>
+          <td>Containers, runtimes, isolation</td>
+      </tr>
+      <tr>
+          <td>Tool</td>
+          <td>Claude Code, Kiro</td>
+          <td>Agentic loop, skills, MCP</td>
+      </tr>
+      <tr>
+          <td>Pattern</td>
+          <td>Fabric, Agent Skills Standard</td>
+          <td>Curated prompts, composable skills</td>
+      </tr>
+  </tbody>
+</table>
+<p>I didn&rsquo;t design this taxonomy. It emerged from the cross-referencing the LLM did during ingest. That&rsquo;s the compounding effect in action.</p>
+<h2 id="the-obsidian-connection">The Obsidian Connection</h2>
+<p>Here&rsquo;s what surprised me: the Obsidian workflow I&rsquo;d built for my second brain was the perfect <em>human layer</em> for this pattern.</p>
+<p>Obsidian handles what I&rsquo;m good at — capturing sources as I encounter them, journaling my thinking, tagging things by project and area (P.A.R.A. still works). The LLM Wiki handles what I&rsquo;m bad at — maintaining cross-references across 50+ pages, spotting when a new source contradicts an old one, synthesizing themes across everything I&rsquo;ve read.</p>
+<p>The workflow looks like this:</p>
+<ol>
+<li>I discover a source (podcast, repo, blog post) and capture it in Obsidian</li>
+<li>When I have enough context, I feed it to the LLM Wiki for ingest</li>
+<li>The LLM creates/updates entity pages, concept pages, and cross-references</li>
+<li>I query the wiki when I need synthesis (&ldquo;How do these tools compare on context management?&rdquo;)</li>
+<li>Good answers get filed back as analysis pages — they compound too</li>
+</ol>
+<p>The human curates. The LLM maintains. Neither could do the other&rsquo;s job well.</p>
+<h2 id="why-wikis-usually-fail-and-why-this-doesnt">Why Wikis Usually Fail (and Why This Doesn&rsquo;t)</h2>
+<p>Vannevar Bush imagined the Memex in 1945 — a personal knowledge store with associative trails between documents. His vision was closer to this than to what the web became: private, actively curated, connections as valuable as documents.</p>
+<p>The part he couldn&rsquo;t solve was who does the maintenance.</p>
+<p>Humans abandon wikis because the maintenance burden grows faster than the value. You start enthusiastic, cross-reference everything, then life happens and the wiki rots. I&rsquo;ve done this with Confluence, Notion, and yes, even Obsidian vaults that got too big.</p>
+<p>LLMs don&rsquo;t get bored. They don&rsquo;t forget cross-references. They can touch 15 files in one pass. The maintenance cost is near zero.</p>
+<h2 id="eight-themes-that-keep-surfacing">Eight Themes That Keep Surfacing</h2>
+<p>Across all 17 sources, the wiki surfaced eight recurring themes (the full analysis is in the <a href="https://blog.imfsoftware.com/llm-wiki/docs/analyses/cross-source-themes/">cross-source themes</a> page):</p>
+<ol>
+<li><strong>Context beats clever prompting</strong> — Progressive disclosure, context documents, selective loading. This was the strongest consensus across all sources.</li>
+<li><strong>Composition over monoliths</strong> — Every tool chose small, focused, composable units.</li>
+<li><strong>The human stays in the loop — but how much?</strong> — A spectrum from &ldquo;always interactive&rdquo; to &ldquo;days of autonomy.&rdquo;</li>
+<li><strong>Five orchestration layers emerging</strong> — The stack I described above.</li>
+<li><strong>Two methodology philosophies</strong> — &ldquo;Specs before code&rdquo; vs. &ldquo;Expert collaboration over autopilot.&rdquo;</li>
+<li><strong>Memory is the unsolved frontier</strong> — Persistent context compounds value <em>and</em> errors.</li>
+<li><strong>Open standards winning</strong> — MCP + Agent Skills Standard as a two-layer open substrate.</li>
+<li><strong>Evaluation is the weakest link</strong> — Everyone agrees it matters; nobody has a complete answer yet.</li>
+</ol>
+<p>I couldn&rsquo;t have synthesized these manually. Not across 17 sources. The wiki did it because every ingest pass updates every relevant page, and the connections accumulate.</p>
+<h2 id="what-i-learned">What I Learned</h2>
+<p>Building this wiki taught me a few things that go beyond the technical:</p>
+<p><strong>Start with sources you care about.</strong> The wiki is only as good as what you feed it. I chose sources I&rsquo;d already read and had opinions about — that made the curation meaningful.</p>
+<p><strong>The schema is everything.</strong> The CLAUDE.md file that defines how the wiki works is the most important artifact. It&rsquo;s effectively a skill — instructions that shape agent behavior for a specific domain. Getting this right took iteration.</p>
+<p><strong>Query your own wiki.</strong> The best analyses came from asking the wiki questions I genuinely wanted answered. &ldquo;How should I evaluate an agent skill?&rdquo; became a <a href="https://blog.imfsoftware.com/llm-wiki/docs/analyses/how-to-eval-a-skill/">full analysis page</a> with a practical framework.</p>
+<p><strong>Lint regularly.</strong> The lint operation catches contradictions and gaps. It&rsquo;s like code review for knowledge.</p>
+<h2 id="from-second-brain-to-compound-brain">From Second Brain to Compound Brain</h2>
+<p>When I wrote about building a second brain, the goal was simple: stop losing information. Offload it, organize it, retrieve it when needed.</p>
+<p>The LLM Wiki takes that further. It&rsquo;s not just storage and retrieval — it&rsquo;s synthesis and accumulation. Every source makes every other source more valuable because the cross-references compound.</p>
+<p>If you&rsquo;re already using Obsidian or any PKM tool, you have the human layer. The LLM Wiki pattern gives you the machine layer. Together, they&rsquo;re closer to Bush&rsquo;s Memex than anything I&rsquo;ve used before.</p>
+<p><strong>The wiki is live: <a href="https://blog.imfsoftware.com/llm-wiki/docs/">blog.imfsoftware.com/llm-wiki/docs</a></strong></p>
+<p>Browse it. See how 17 sources become a connected knowledge base. And if you build your own, I&rsquo;d love to hear what emerges.</p>
+<hr>
+<h2 id="resources">Resources</h2>
+<ul>
+<li><a href="https://blog.imfsoftware.com/llm-wiki/docs/">LLM Wiki — Agentic AI Landscape</a></li>
+<li><a href="https://blog.imfsoftware.com/llm-wiki/docs/concepts/llm-wiki-pattern/">LLM Wiki Pattern (Concept Page)</a></li>
+<li><a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f">Andrej Karpathy&rsquo;s Original LLM Wiki Idea</a></li>
+<li><a href="https://blog.imfsoftware.com/llm-wiki/docs/analyses/cross-source-themes/">Cross-Source Themes Analysis</a></li>
+<li><a href="https://blog.imfsoftware.com/post/buildasecondbrain/">Building a Second Brain (my earlier post)</a></li>
+<li><a href="https://obsidian.md">Obsidian</a></li>
+</ul>
+
+        </div>
+        <div class="post_extra mb-2">
+          
+<div class="copy" data-before="Share Story" data-after="Link Copied">
+  <svg class="icon">
+    <use xlink:href="#copy"></use>
+  </svg>
+</div>
+          <a class="hugo-shortcodes-bmc-button" href="https://www.buymeacoffee.com/ianforster8">
+            <img src="https://img.buymeacoffee.com/button-api/?slug=ianforster8&text=Buy&#43;me&#43;a&#43;coffee&emoji=&font_family=Lato&button_colour=ffdd00&font_colour=000000&outline_colour=000000&coffee_colour=ffffff" alt="Buy me a coffee" style="max-width:200px;height:auto;" />
+          </a>
+          
+        </div>
+        <div>
+        
+        </div>
+      </div>
+    </div>
+    <a href=https://blog.imfsoftware.com/ class="post_nav"><span class="post_next">Latest Posts
+      <svg class="icon icon_scale">
+        <use xlink:href="#double-arrow"></use>
+      </svg>
+    </span></a>
+  </div>
+
+    </main>
+    <footer class="footer wrap pale">
+  <p>&copy;&nbsp;<span class="year"></span>&nbsp;imforster blog</p>
+  <p class="attribution upcase">Designed by  <a href = 'https://www.linkedin.com/in/ianmforster/' target = '_blank' title = 'Linkedin Profile' rel = 'nonopener'>iforster</a></p>
+</footer>
+
+
+<script src="https://blog.imfsoftware.com/js/index.min.be164c8c5d2bfa07f94bdfed9c6e7aa8d27e3650e4ce43fb78c003499d70614a9c3bce91ca4cf6806666e538eb0d5f0d6fa5ecbd050b1eb8962f14865de20a4b.js"></script>
+
+    <svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699.428 699.428" id="copy">
+    <path d="M502.714 0H240.428C194.178 0 153 42.425 153 87.429l-25.267.59c-46.228 0-84.019 41.834-84.019 86.838V612c0 45.004 41.179 87.428 87.429 87.428H459c46.249 0 87.428-42.424 87.428-87.428h21.857c46.25 0 87.429-42.424 87.429-87.428v-349.19L502.714 0zM459 655.715H131.143c-22.95 0-43.714-21.441-43.714-43.715V174.857c0-22.272 18.688-42.993 41.638-42.993l23.933-.721v393.429C153 569.576 194.178 612 240.428 612h262.286c0 22.273-20.765 43.715-43.714 43.715zm153-131.143c0 22.271-20.765 43.713-43.715 43.713H240.428c-22.95 0-43.714-21.441-43.714-43.713V87.429c0-22.272 20.764-43.714 43.714-43.714H459c-.351 50.337 0 87.975 0 87.975 0 45.419 40.872 86.882 87.428 86.882H612v306zm-65.572-349.715c-23.277 0-43.714-42.293-43.714-64.981V44.348L612 174.857h-65.572zm-43.714 131.537H306c-12.065 0-21.857 9.77-21.857 21.835 0 12.065 9.792 21.835 21.857 21.835h196.714c12.065 0 21.857-9.771 21.857-21.835 0-12.065-9.792-21.835-21.857-21.835zm0 109.176H306c-12.065 0-21.857 9.77-21.857 21.834 0 12.066 9.792 21.836 21.857 21.836h196.714c12.065 0 21.857-9.77 21.857-21.836 0-12.064-9.792-21.834-21.857-21.834z"></path>
+  </symbol>
+  <symbol viewBox="0 0 53 42" xmlns="http://www.w3.org/2000/svg" id="double-arrow">
+    <path d="M.595 39.653a1.318 1.318 0 0 1 0-1.864L16.55 21.833a1.318 1.318 0 0 0 0-1.863L.595 4.014a1.318 1.318 0 0 1 0-1.863L2.125.62a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0zm29 0a1.318 1.318 0 0 1 0-1.864L45.55 21.833a1.318 1.318 0 0 0 0-1.863L29.595 4.014a1.318 1.318 0 0 1 0-1.863l1.53-1.53a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0z"></path>
+  </symbol>
+</svg>
+  </body>
+</html>
