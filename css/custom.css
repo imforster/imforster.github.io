@@ -13,4 +13,8 @@ ul {
 ul.a {
   	list-style-type: circle !important;
 }
+
+.article:hover a {
+  color: var(--text) !important;
+}
 </style>
