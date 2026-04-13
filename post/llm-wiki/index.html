@@ -111,13 +111,13 @@ A few years ago I wrote about building a second brain, offloading information">
         
           <h1 id="from-second-brain-to-llm-wiki-how-i-built-a-compounding-knowledge-base-with-ai">From Second Brain To LLM Wiki: How I Built a Compounding Knowledge Base with AI</h1>
 <p>A few years ago I wrote about <a href="https://blog.imfsoftware.com/post/buildasecondbrain/">building a second brain</a>, offloading information from my head into <a href="https://logseq.com/">Logseq</a> (which uses markdown, so it&rsquo;s compatible with <a href="https://obsidian.md">Obsidian</a> too), using Tiago Forte&rsquo;s P.A.R.A. method to tame the chaos. That system changed how I work. But with recent advances in AI and trying to stay on top of emerging trends I needed help.</p>
-<p>I was drowning in AI sources. Podcasts, docs, GitHub repos, blog posts - all about the agentic AI ecosystem. I&rsquo;d read something brilliant, file it in Obsidian, and three weeks later forget it existed. Worse, I couldn&rsquo;t see the connections <em>between</em> sources. How does Kiro&rsquo;s context management relate to Anthropic&rsquo;s skill standard? Where does Fabric fit in the stack? My second brain had the raw material, but no synthesis.</p>
+<p>I was drowning in AI sources. Podcasts, docs, GitHub repos, blog posts, all about the agentic AI ecosystem. I&rsquo;d read something brilliant, file it in Obsidian, and three weeks later forget it existed. Worse, I couldn&rsquo;t see the connections <em>between</em> sources. How does Kiro&rsquo;s context management relate to Anthropic&rsquo;s skill standard? Where does Fabric fit in the stack? My second brain had the raw material, but no synthesis.</p>
 <p>Then I found Andrej Karpathy&rsquo;s <a href="https://blog.imfsoftware.com/llm-wiki/docs/concepts/llm-wiki-pattern/">LLM Wiki pattern</a>, and everything clicked.</p>
 <h2 id="the-problem-with-rag-and-my-notes">The Problem with RAG (and My Notes)</h2>
 <p>The core insight is deceptively simple: <strong>Wiki &gt; RAG.</strong></p>
 <p>RAG (Retrieval-Augmented Generation) rediscovers knowledge from scratch on every query. You ask a question, it searches your documents, pulls relevant chunks, and synthesizes an answer. It works, but nothing compounds. Ask the same question tomorrow and it does the same work again. There&rsquo;s no accumulation.</p>
 <p>My Obsidian vault had the same problem at a different scale. The notes were there, but the <em>synthesis</em> lived only in my head. I was the one maintaining cross-references, spotting contradictions, connecting ideas across sources. And I&rsquo;m not great at that when I have 17 sources across tools, standards, methodologies, and practitioner insights.</p>
-<p>Karpathy&rsquo;s idea: let the LLM do the maintenance. Humans curate sources, direct analysis, and ask good questions. The LLM does everything else - summarizing, cross-referencing, filing, and bookkeeping.</p>
+<p>Karpathy&rsquo;s idea: let the LLM do the maintenance. Humans curate sources, direct analysis, and ask good questions. The LLM does everything else summarizing, cross-referencing, filing, and bookkeeping.</p>
 <h2 id="how-it-works-three-layers-three-operations">How It Works: Three Layers, Three Operations</h2>
 <p>The architecture is clean:</p>
 <pre tabindex="0"><code>Raw Sources (immutable)  →  Wiki (LLM-maintained)  →  Schema (CLAUDE.md)
@@ -143,7 +143,7 @@ A few years ago I wrote about building a second brain, offloading information">
 <li><strong>Evaluation</strong>: Anthropic&rsquo;s eval guide, Promptfoo</li>
 <li><strong>Practitioner insights</strong>: Real-world patterns from podcasts and skill pipelines</li>
 </ul>
-<p>What emerged was something I couldn&rsquo;t have built manually - a five-layer stack that kept surfacing across all the sources:</p>
+<p>What emerged was something I couldn&rsquo;t have built manually; a five-layer stack that kept surfacing across all the sources:</p>
 <table>
   <thead>
       <tr>
@@ -183,7 +183,7 @@ A few years ago I wrote about building a second brain, offloading information">
 <p>I didn&rsquo;t design this taxonomy. It emerged from the cross-referencing the LLM did during ingest. That&rsquo;s the compounding effect in action.</p>
 <h2 id="the-obsidian-connection">The Obsidian Connection</h2>
 <p>Here&rsquo;s what surprised me: the Obsidian workflow I&rsquo;d built for my second brain was the perfect <em>human layer</em> for this pattern.</p>
-<p>Obsidian handles what I&rsquo;m good at - capturing sources as I encounter them, journaling my thinking, tagging things by project and area (P.A.R.A. still works). The LLM Wiki handles what I&rsquo;m bad at - maintaining cross-references across 50+ pages, spotting when a new source contradicts an old one, synthesizing themes across everything I&rsquo;ve read.</p>
+<p>Obsidian handles what I&rsquo;m good at capturing sources as I encounter them, journaling my thinking, tagging things by project and area (P.A.R.A. still works). The LLM Wiki handles what I&rsquo;m bad at maintaining cross-references across 50+ pages, spotting when a new source contradicts an old one, synthesizing themes across everything I&rsquo;ve read.</p>
 <p>The workflow looks like this:</p>
 <ol>
 <li>I discover a source (podcast, repo, blog post) and capture it in Obsidian</li>
@@ -194,7 +194,7 @@ A few years ago I wrote about building a second brain, offloading information">
 </ol>
 <p>The human curates. The LLM maintains. Neither could do the other&rsquo;s job well.</p>
 <h2 id="why-wikis-usually-fail-and-why-this-doesnt">Why Wikis Usually Fail (and Why This Doesn&rsquo;t)</h2>
-<p>Vannevar Bush imagined the Memex in 1945 - a personal knowledge store with associative trails between documents. His vision was closer to this than to what the web became: private, actively curated, connections as valuable as documents.</p>
+<p>Vannevar Bush imagined the Memex in 1945 &ndash; a personal knowledge store with associative trails between documents. His vision was closer to this than to what the web became: private, actively curated, connections as valuable as documents.</p>
 <p>The part he couldn&rsquo;t solve was who does the maintenance.</p>
 <p>Humans abandon wikis because the maintenance burden grows faster than the value. You start enthusiastic, cross-reference everything, then life happens and the wiki rots. I&rsquo;ve done this with Confluence, Notion, and yes, even Obsidian vaults that got too big.</p>
 <p>LLMs don&rsquo;t get bored. They don&rsquo;t forget cross-references. They can touch 15 files in one pass. The maintenance cost is near zero.</p>
@@ -214,12 +214,12 @@ A few years ago I wrote about building a second brain, offloading information">
 <h2 id="what-i-learned">What I Learned</h2>
 <p>Building this wiki taught me a few things that go beyond the technical:</p>
 <p><strong>Start with sources you care about.</strong> The wiki is only as good as what you feed it. I chose sources I&rsquo;d already read and had opinions about, and that made the curation meaningful.</p>
-<p><strong>The schema is everything.</strong> The CLAUDE.md file that defines how the wiki works is the most important artifact. It&rsquo;s effectively a skill - instructions that shape agent behavior for a specific domain. Getting this right took iteration.</p>
+<p><strong>The schema is everything.</strong> The CLAUDE.md file that defines how the wiki works is the most important artifact. It&rsquo;s effectively a skill instructions that shape agent behavior for a specific domain. Getting this right took iteration.</p>
 <p><strong>Query your own wiki.</strong> The best analyses came from asking the wiki questions I genuinely wanted answered. &ldquo;How should I evaluate an agent skill?&rdquo; became a <a href="https://blog.imfsoftware.com/llm-wiki/docs/analyses/how-to-eval-a-skill/">full analysis page</a> with a practical framework.</p>
 <p><strong>Lint regularly.</strong> The lint operation catches contradictions and gaps. It&rsquo;s like code review for knowledge.</p>
 <h2 id="from-second-brain-to-compound-brain">From Second Brain to Compound Brain</h2>
 <p>When I wrote about building a second brain, the goal was simple: stop losing information. Offload it, organize it, retrieve it when needed.</p>
-<p>The LLM Wiki takes that further. It&rsquo;s not just storage and retrieval - it&rsquo;s synthesis and accumulation. Every source makes every other source more valuable because the cross-references compound.</p>
+<p>The LLM Wiki takes that further. It&rsquo;s not just storage and retrieval, it&rsquo;s synthesis and accumulation. Every source makes every other source more valuable because the cross-references compound.</p>
 <p>If you&rsquo;re already using Obsidian or any PKM tool, you have the human layer. The LLM Wiki pattern gives you the machine layer. Together, they&rsquo;re closer to Bush&rsquo;s Memex than anything I&rsquo;ve used before.</p>
 <p><strong>The wiki is live: <a href="https://blog.imfsoftware.com/llm-wiki/docs/">blog.imfsoftware.com/llm-wiki/docs</a></strong></p>
 <p>Browse it. See how 17 sources become a connected knowledge base. And if you build your own, I&rsquo;d love to hear what emerges.</p>
