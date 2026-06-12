@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" font-family="system-ui, -apple-system, sans-serif">
+  <!-- Title -->
+  <text x="400" y="30" font-size="16" fill="#333" text-anchor="middle" font-weight="600">From Intent to Implementation</text>
+
+  <!-- Intent box -->
+  <rect x="50" y="120" width="140" height="60" rx="8" fill="#d4880f"/>
+  <text x="120" y="148" font-size="13" fill="#fff" text-anchor="middle" font-weight="600">Intent</text>
+  <text x="120" y="166" font-size="11" fill="#fff" text-anchor="middle">Requirements</text>
+
+  <!-- Arrow 1 -->
+  <line x1="190" y1="150" x2="240" y2="150" stroke="#999" stroke-width="2"/>
+  <polygon points="240,145 255,150 240,155" fill="#999"/>
+
+  <!-- Specification box -->
+  <rect x="260" y="105" width="160" height="90" rx="8" fill="#1e3a5f"/>
+  <text x="340" y="135" font-size="13" fill="#fff" text-anchor="middle" font-weight="600">Specification</text>
+  <text x="340" y="155" font-size="11" fill="#fff" text-anchor="middle">Architecture</text>
+  <text x="340" y="172" font-size="11" fill="#fff" text-anchor="middle">Tests &amp; Constraints</text>
+
+  <!-- Arrows branching -->
+  <line x1="420" y1="130" x2="500" y2="90" stroke="#999" stroke-width="2"/>
+  <polygon points="497,84 512,87 500,95" fill="#999"/>
+  <line x1="420" y1="150" x2="500" y2="150" stroke="#999" stroke-width="2"/>
+  <polygon points="500,145 515,150 500,155" fill="#999"/>
+  <line x1="420" y1="170" x2="500" y2="210" stroke="#999" stroke-width="2"/>
+  <polygon points="497,216 512,213 500,205" fill="#999"/>
+
+  <!-- Implementation boxes -->
+  <rect x="520" y="65" width="220" height="45" rx="6" fill="#4a90a4" opacity="0.8"/>
+  <text x="630" y="92" font-size="12" fill="#fff" text-anchor="middle">Implementation A (generated)</text>
+
+  <rect x="520" y="128" width="220" height="45" rx="6" fill="#4a90a4" opacity="0.8"/>
+  <text x="630" y="155" font-size="12" fill="#fff" text-anchor="middle">Implementation B (generated)</text>
+
+  <rect x="520" y="191" width="220" height="45" rx="6" fill="#4a90a4" opacity="0.8"/>
+  <text x="630" y="218" font-size="12" fill="#fff" text-anchor="middle">Implementation C (generated)</text>
+
+  <!-- Annotations -->
+  <text x="120" y="210" font-size="11" fill="#888" text-anchor="middle">Human-defined</text>
+  <text x="120" y="225" font-size="11" fill="#888" text-anchor="middle">↑ scarce</text>
+
+  <text x="630" y="262" font-size="11" fill="#888" text-anchor="middle">AI-generated</text>
+  <text x="630" y="277" font-size="11" fill="#888" text-anchor="middle">↑ abundant</text>
+</svg>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>LLMs on imforster blog</title>
+		<link>https://blog.imfsoftware.com/tags/llms/</link>
+		<description>Recent content in LLMs on imforster blog</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+			<copyright>Copyright © 2021, Ian Foster</copyright>
+		
+		
+			<lastBuildDate>Thu, 11 Jun 2026 00:00:00 -0700</lastBuildDate>
+		
+			<atom:link href="https://blog.imfsoftware.com/tags/llms/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Intent Engineering: The Emerging Skill of Software Development</title>
+				<link>https://blog.imfsoftware.com/post/intent-engineering/</link>
+				<pubDate>Thu, 11 Jun 2026 00:00:00 -0700</pubDate>
+				<guid>https://blog.imfsoftware.com/post/intent-engineering/</guid>
+				<description>&lt;h1 id=&#34;intent-engineering-the-emerging-skill-of-software-development&#34;&gt;Intent Engineering: The Emerging Skill of Software Development&lt;/h1&gt;&#xA;&lt;p&gt;For most of my career, software development was fundamentally an exercise in implementation.&lt;/p&gt;&#xA;&lt;p&gt;A requirement would arrive in the form of a user story, a design document, a conversation, or sometimes a vague request from a stakeholder. The job of the developer was to translate that intent into working software. Success was largely determined by an individual&amp;rsquo;s ability to understand a problem and then express a solution through code.&lt;/p&gt;&#xA;&lt;p&gt;That model is beginning to change.&lt;/p&gt;&#xA;&lt;p&gt;After spending the last year working extensively with AI coding agents, I have noticed a shift in where I spend my time. I write less code than I once did. In some cases, significantly less. Yet I don&amp;rsquo;t feel like I&amp;rsquo;m doing less software engineering. &lt;strong&gt;I&amp;rsquo;m doing more&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The nature of the work has changed. The challenge is no longer primarily implementation — it is communicating intent. The most productive sessions are no longer the ones where I type the fastest, but the ones where I think the clearest.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

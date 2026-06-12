@@ -2,20 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.imfsoftware.com/post/llm-wiki/</loc>
-    <lastmod>2026-04-11T21:00:00-07:00</lastmod>
+    <loc>https://blog.imfsoftware.com/tags/ai/</loc>
+    <lastmod>2026-06-11T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.imfsoftware.com/tags/architecture/</loc>
+    <lastmod>2026-06-11T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.imfsoftware.com/categories/</loc>
+    <lastmod>2026-06-11T00:00:00-07:00</lastmod>
   </url><url>
     <loc>https://blog.imfsoftware.com/</loc>
-    <lastmod>2026-04-11T21:00:00-07:00</lastmod>
+    <lastmod>2026-06-11T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.imfsoftware.com/post/intent-engineering/</loc>
+    <lastmod>2026-06-11T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.imfsoftware.com/tags/llms/</loc>
+    <lastmod>2026-06-11T00:00:00-07:00</lastmod>
   </url><url>
     <loc>https://blog.imfsoftware.com/post/</loc>
+    <lastmod>2026-06-11T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.imfsoftware.com/categories/software-engineering/</loc>
+    <lastmod>2026-06-11T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.imfsoftware.com/tags/software-engineering/</loc>
+    <lastmod>2026-06-11T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.imfsoftware.com/tags/</loc>
+    <lastmod>2026-06-11T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.imfsoftware.com/tags/testing/</loc>
+    <lastmod>2026-06-11T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.imfsoftware.com/post/llm-wiki/</loc>
     <lastmod>2026-04-11T21:00:00-07:00</lastmod>
   </url><url>
     <loc>https://blog.imfsoftware.com/post/ai-mastery-levels/</loc>
     <lastmod>2025-11-29T20:35:07-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.imfsoftware.com/tags/ai/</loc>
-    <lastmod>2025-10-26T20:46:37-07:00</lastmod>
   </url><url>
     <loc>https://blog.imfsoftware.com/tags/design/</loc>
     <lastmod>2025-10-26T20:46:37-07:00</lastmod>
@@ -24,9 +48,6 @@
     <lastmod>2025-10-26T20:46:37-07:00</lastmod>
   </url><url>
     <loc>https://blog.imfsoftware.com/post/ai-playground/</loc>
-    <lastmod>2025-10-26T20:46:37-07:00</lastmod>
-  </url><url>
-    <loc>https://blog.imfsoftware.com/tags/</loc>
     <lastmod>2025-10-26T20:46:37-07:00</lastmod>
   </url><url>
     <loc>https://blog.imfsoftware.com/post/buildasecondbrain/</loc>
@@ -65,6 +86,6 @@
     <loc>https://blog.imfsoftware.com/post/firstpost/</loc>
     <lastmod>2021-04-10T16:37:18-07:00</lastmod>
   </url><url>
-    <loc>https://blog.imfsoftware.com/categories/</loc>
+    <loc>https://blog.imfsoftware.com/2026-05-14/</loc>
   </url>
 </urlset>
